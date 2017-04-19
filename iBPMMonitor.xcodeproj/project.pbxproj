@@ -1,0 +1,1419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6102EED1E04A86000B1BA7A /* iBPMDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B6102EEC1E04A86000B1BA7A /* iBPMDrawerVisualStateManager.m */; };
+		B6102EF21E04AAA800B1BA7A /* iBPMDataProviderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B6102EF11E04AAA800B1BA7A /* iBPMDataProviderManager.m */; };
+		B6102EF61E04C3C700B1BA7A /* iBPMStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B6102EF51E04C3C700B1BA7A /* iBPMStateManager.m */; };
+		B6102EFA1E04D03500B1BA7A /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B6102EF91E04D03500B1BA7A /* NSString+Extensions.m */; };
+		B6102EFF1E05004C00B1BA7A /* iBPMMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6102EFD1E05004C00B1BA7A /* iBPMMainTableViewCell.m */; };
+		B6102F001E05004C00B1BA7A /* iBPMMainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6102EFE1E05004C00B1BA7A /* iBPMMainTableViewCell.xib */; };
+		B64AFA731E08BE0800A590D4 /* UIView+Fold.m in Sources */ = {isa = PBXBuildFile; fileRef = B64AFA721E08BE0800A590D4 /* UIView+Fold.m */; };
+		B64AFA781E08CA2500A590D4 /* iBPMAppDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B64AFA761E08CA2500A590D4 /* iBPMAppDetailTableViewCell.m */; };
+		B64AFA791E08CA2500A590D4 /* iBPMAppDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B64AFA771E08CA2500A590D4 /* iBPMAppDetailTableViewCell.xib */; };
+		B6AE056E1E09B3CE0074D22A /* iBPMDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AE056D1E09B3CE0074D22A /* iBPMDataModel.m */; };
+		B6AE05721E09B3FF0074D22A /* iBPMAppModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AE05711E09B3FF0074D22A /* iBPMAppModel.m */; };
+		B6B655851E062D4E00FC2864 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B655841E062D4E00FC2864 /* UIFont+Extension.swift */; };
+		B6B655891E07D80100FC2864 /* iBPMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B655881E07D80100FC2864 /* iBPMNavigationController.m */; };
+		B6DC0D531E03121600627007 /* iBPMSideDrawerSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DC0D521E03121600627007 /* iBPMSideDrawerSectionHeaderView.m */; };
+		B6DC0D571E03123400627007 /* iBPMSideDrawerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DC0D561E03123400627007 /* iBPMSideDrawerTableViewCell.m */; };
+		B6DC0D5B1E03125400627007 /* iBPMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DC0D5A1E03125400627007 /* iBPMTableViewCell.m */; };
+		B6DC0D5F1E03162B00627007 /* iBPMColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DC0D5E1E03162B00627007 /* iBPMColorUtils.m */; };
+		B6DC0D641E036EE400627007 /* MBProgressHUD+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DC0D631E036EE400627007 /* MBProgressHUD+Extension.m */; };
+		B6DC0D681E0371A900627007 /* UIAlertController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DC0D671E0371A900627007 /* UIAlertController+Extension.m */; };
+		B6DC0D6D1E03765D00627007 /* iBPMDomainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DC0D6B1E03765D00627007 /* iBPMDomainViewController.m */; };
+		B6DC0D6E1E03765D00627007 /* iBPMDomainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6DC0D6C1E03765D00627007 /* iBPMDomainViewController.xib */; };
+		B6DC0D721E037C0D00627007 /* iBPMDisclosureIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DC0D711E037C0D00627007 /* iBPMDisclosureIndicator.m */; };
+		B6DC0D761E037D0D00627007 /* iBPMCustomCheckmark.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DC0D751E037D0D00627007 /* iBPMCustomCheckmark.m */; };
+		B6DC0D7A1E03800100627007 /* iBPMBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DC0D791E03800100627007 /* iBPMBackButton.m */; };
+		B6DC0D7E1E0380F300627007 /* iBPMBarBackButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DC0D7D1E0380F300627007 /* iBPMBarBackButtonItem.m */; };
+		B6E9DBC21E089A6000DD3CA0 /* iBPMDomainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E9DBC11E089A6000DD3CA0 /* iBPMDomainTableViewCell.m */; };
+		B6EC43D91E01B5B40061E5A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC43D81E01B5B40061E5A9 /* main.m */; };
+		B6EC43E21E01B5B40061E5A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6EC43E01E01B5B40061E5A9 /* Main.storyboard */; };
+		B6EC43E41E01B5B40061E5A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6EC43E31E01B5B40061E5A9 /* Assets.xcassets */; };
+		B6EC43E71E01B5B40061E5A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6EC43E51E01B5B40061E5A9 /* LaunchScreen.storyboard */; };
+		B6EC43F81E01BAB00061E5A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC43F71E01BAB00061E5A9 /* AppDelegate.m */; };
+		B6EC44071E01C21B0061E5A9 /* iBPMDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC44061E01C21B0061E5A9 /* iBPMDataProvider.m */; };
+		B6EC44121E01C3D40061E5A9 /* iBPMLocalDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC44111E01C3D40061E5A9 /* iBPMLocalDataProvider.m */; };
+		B6EC44161E01C4170061E5A9 /* iBPMServerDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC44151E01C4170061E5A9 /* iBPMServerDataProvider.m */; };
+		B6EC44191E01CC200061E5A9 /* status.json in Resources */ = {isa = PBXBuildFile; fileRef = B6EC44181E01CC200061E5A9 /* status.json */; };
+		B6EC44211E01CE8B0061E5A9 /* iBPMDataParserUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC44201E01CE8B0061E5A9 /* iBPMDataParserUtils.m */; };
+		B6EC44341E01ED320061E5A9 /* iBPMDataProvider+PostProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC44331E01ED320061E5A9 /* iBPMDataProvider+PostProcessor.m */; };
+		B6EC44371E01F0070061E5A9 /* iBPMOperationQueueUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC44361E01F0070061E5A9 /* iBPMOperationQueueUtils.m */; };
+		B6EC443B1E01F75B0061E5A9 /* iBPMDomainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC443A1E01F75B0061E5A9 /* iBPMDomainModel.m */; };
+		B6EC44421E02026D0061E5A9 /* UITextField+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC44411E02026D0061E5A9 /* UITextField+Extension.m */; };
+		B6EC444F1E0216880061E5A9 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC444E1E0216880061E5A9 /* MBProgressHUD.m */; };
+		B6EC44901E021B300061E5A9 /* iBPMSidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC448E1E021B300061E5A9 /* iBPMSidebarViewController.m */; };
+		B6EC44911E021B300061E5A9 /* iBPMSidebarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6EC448F1E021B300061E5A9 /* iBPMSidebarViewController.xib */; };
+		B6EC44941E021BB10061E5A9 /* iBPMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC44931E021BB10061E5A9 /* iBPMLoginViewController.m */; };
+		B6EC449F1E0224220061E5A9 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC44981E0224220061E5A9 /* MMDrawerController.m */; };
+		B6EC44A01E0224220061E5A9 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC449B1E0224220061E5A9 /* MMDrawerVisualState.m */; };
+		B6EC44A51E023FEE0061E5A9 /* UIColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC44A41E023FEE0061E5A9 /* UIColor+Extensions.m */; };
+		C7169E9E1E0C95AE0007CD0A /* iBPMAuthenticationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C7169E9D1E0C95AE0007CD0A /* iBPMAuthenticationManager.m */; };
+		C7169EA41E1DA43D0007CD0A /* iBPMStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7169EA21E1DA43D0007CD0A /* iBPMStatusViewController.m */; };
+		C7169EA51E1DA43D0007CD0A /* iBPMStatusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7169EA31E1DA43D0007CD0A /* iBPMStatusViewController.xib */; };
+		C7169EB01E1DCA750007CD0A /* iBPMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7169EAE1E1DCA750007CD0A /* iBPMMainViewController.m */; };
+		C7169EB11E1DCA750007CD0A /* iBPMMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7169EAF1E1DCA750007CD0A /* iBPMMainViewController.xib */; };
+		C7169EBA1E1DCAFB0007CD0A /* iBPMMonitorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7169EB81E1DCAFB0007CD0A /* iBPMMonitorViewController.m */; };
+		C7169EBB1E1DCAFB0007CD0A /* iBPMMonitorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7169EB91E1DCAFB0007CD0A /* iBPMMonitorViewController.xib */; };
+		C7169EBF1E1DCBC10007CD0A /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7169EBE1E1DCBC10007CD0A /* UIViewController+MMDrawerController.m */; };
+		C7169EC31E1EEDFA0007CD0A /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C7169EC21E1EEDFA0007CD0A /* UIImage+Extension.m */; };
+		C7169EC71E1EF2580007CD0A /* UIView+YALConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = C7169EC61E1EF2580007CD0A /* UIView+YALConstraints.m */; };
+		C77B44941E09EC8100821598 /* YALContextMenuTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C77B44921E09EC8100821598 /* YALContextMenuTableView.m */; };
+		C77B44991E09F79D00821598 /* ContextMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C77B44971E09F79D00821598 /* ContextMenuCell.m */; };
+		C77B449A1E09F79D00821598 /* ContextMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C77B44981E09F79D00821598 /* ContextMenuCell.xib */; };
+		C77B449E1E0A079300821598 /* iBPMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C77B449D1E0A079300821598 /* iBPMDrawerBarButtonItem.m */; };
+		C77B44A31E0B2A2E00821598 /* gssc_rma_DRD-1045698.json in Resources */ = {isa = PBXBuildFile; fileRef = C77B44A21E0B2A2E00821598 /* gssc_rma_DRD-1045698.json */; };
+		C77B44A71E0B346800821598 /* iBPMSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77B44A51E0B346800821598 /* iBPMSettingsViewController.m */; };
+		C77B44A81E0B346800821598 /* iBPMSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C77B44A61E0B346800821598 /* iBPMSettingsViewController.xib */; };
+		C77EF1B61E25908F00B3772A /* iBPMDetailedStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77EF1B41E25908F00B3772A /* iBPMDetailedStatusViewController.m */; };
+		C77EF1B71E25908F00B3772A /* iBPMDetailedStatusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C77EF1B51E25908F00B3772A /* iBPMDetailedStatusViewController.xib */; };
+		C77EF1BC1E2EEB0700B3772A /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77EF1BB1E2EEB0700B3772A /* UserNotificationsUI.framework */; };
+		C77EF1BE1E2EEB0E00B3772A /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77EF1BD1E2EEB0E00B3772A /* UserNotifications.framework */; };
+		C77EF1C01E2EEB1600B3772A /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77EF1BF1E2EEB1600B3772A /* NotificationCenter.framework */; };
+		C77EF1C91E2EEE3C00B3772A /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = C77EF1C81E2EEE3C00B3772A /* NotificationService.m */; };
+		C77EF1CD1E2EEE3C00B3772A /* iBPMNotifications.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C77EF1C51E2EEE3C00B3772A /* iBPMNotifications.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C77EF1D81E32D54600B3772A /* iBPMHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77EF1D61E32D54600B3772A /* iBPMHistoryViewController.m */; };
+		C77EF1D91E32D54600B3772A /* iBPMHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C77EF1D71E32D54600B3772A /* iBPMHistoryViewController.xib */; };
+		C77EF1E01E32E28B00B3772A /* HistoryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C77EF1DE1E32E28B00B3772A /* HistoryCollectionViewCell.m */; };
+		C77EF1E11E32E28B00B3772A /* HistoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C77EF1DF1E32E28B00B3772A /* HistoryCollectionViewCell.xib */; };
+		C77EF1E31E36C44E00B3772A /* HistoryFilters.plist in Resources */ = {isa = PBXBuildFile; fileRef = C77EF1E21E36C44E00B3772A /* HistoryFilters.plist */; };
+		C7A0057D1E0C924F001AF641 /* iBPMConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A0057C1E0C924F001AF641 /* iBPMConnection.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C77EF1CB1E2EEE3C00B3772A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6EC43CC1E01B5B30061E5A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C77EF1C41E2EEE3C00B3772A;
+			remoteInfo = iBPMNotifications;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C77EF1D11E2EEE3C00B3772A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C77EF1CD1E2EEE3C00B3772A /* iBPMNotifications.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9B1317E51E301B160080691E /* iBPMMonitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iBPMMonitor.entitlements; sourceTree = "<group>"; };
+		9B1317E61E301B250080691E /* iBPMNotifications.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iBPMNotifications.entitlements; sourceTree = "<group>"; };
+		B6102EEB1E04A86000B1BA7A /* iBPMDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMDrawerVisualStateManager.h; path = src/Managers/iBPMDrawerVisualStateManager/iBPMDrawerVisualStateManager.h; sourceTree = "<group>"; };
+		B6102EEC1E04A86000B1BA7A /* iBPMDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMDrawerVisualStateManager.m; path = src/Managers/iBPMDrawerVisualStateManager/iBPMDrawerVisualStateManager.m; sourceTree = "<group>"; };
+		B6102EF01E04AAA800B1BA7A /* iBPMDataProviderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMDataProviderManager.h; path = src/Managers/iBPMDataProviderManager/iBPMDataProviderManager.h; sourceTree = "<group>"; };
+		B6102EF11E04AAA800B1BA7A /* iBPMDataProviderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMDataProviderManager.m; path = src/Managers/iBPMDataProviderManager/iBPMDataProviderManager.m; sourceTree = "<group>"; };
+		B6102EF41E04C3C700B1BA7A /* iBPMStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMStateManager.h; path = src/Managers/iBPMStateManager/iBPMStateManager.h; sourceTree = "<group>"; };
+		B6102EF51E04C3C700B1BA7A /* iBPMStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMStateManager.m; path = src/Managers/iBPMStateManager/iBPMStateManager.m; sourceTree = "<group>"; };
+		B6102EF81E04D03500B1BA7A /* NSString+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Extensions.h"; path = "src/Extensions/NSString+Extension/NSString+Extensions.h"; sourceTree = "<group>"; };
+		B6102EF91E04D03500B1BA7A /* NSString+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Extensions.m"; path = "src/Extensions/NSString+Extension/NSString+Extensions.m"; sourceTree = "<group>"; };
+		B6102EFC1E05004C00B1BA7A /* iBPMMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMMainTableViewCell.h; path = src/Views/iBPMMainTableViewCell/iBPMMainTableViewCell.h; sourceTree = "<group>"; };
+		B6102EFD1E05004C00B1BA7A /* iBPMMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMMainTableViewCell.m; path = src/Views/iBPMMainTableViewCell/iBPMMainTableViewCell.m; sourceTree = "<group>"; };
+		B6102EFE1E05004C00B1BA7A /* iBPMMainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iBPMMainTableViewCell.xib; path = src/Views/iBPMMainTableViewCell/iBPMMainTableViewCell.xib; sourceTree = "<group>"; };
+		B64AFA711E08BE0800A590D4 /* UIView+Fold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Fold.h"; path = "src/Extensions/UIView+Fold/UIView+Fold.h"; sourceTree = "<group>"; };
+		B64AFA721E08BE0800A590D4 /* UIView+Fold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Fold.m"; path = "src/Extensions/UIView+Fold/UIView+Fold.m"; sourceTree = "<group>"; };
+		B64AFA751E08CA2500A590D4 /* iBPMAppDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMAppDetailTableViewCell.h; path = src/Views/iBPMAppDetailTableViewCell/iBPMAppDetailTableViewCell.h; sourceTree = "<group>"; };
+		B64AFA761E08CA2500A590D4 /* iBPMAppDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMAppDetailTableViewCell.m; path = src/Views/iBPMAppDetailTableViewCell/iBPMAppDetailTableViewCell.m; sourceTree = "<group>"; };
+		B64AFA771E08CA2500A590D4 /* iBPMAppDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iBPMAppDetailTableViewCell.xib; path = src/Views/iBPMAppDetailTableViewCell/iBPMAppDetailTableViewCell.xib; sourceTree = "<group>"; };
+		B6AE056C1E09B3CE0074D22A /* iBPMDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMDataModel.h; path = src/Models/iBPMDataModel/iBPMDataModel.h; sourceTree = "<group>"; };
+		B6AE056D1E09B3CE0074D22A /* iBPMDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMDataModel.m; path = src/Models/iBPMDataModel/iBPMDataModel.m; sourceTree = "<group>"; };
+		B6AE05701E09B3FF0074D22A /* iBPMAppModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMAppModel.h; path = src/Models/iBPMAppModel/iBPMAppModel.h; sourceTree = "<group>"; };
+		B6AE05711E09B3FF0074D22A /* iBPMAppModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMAppModel.m; path = src/Models/iBPMAppModel/iBPMAppModel.m; sourceTree = "<group>"; };
+		B6B655831E062D4E00FC2864 /* iBPMMonitor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iBPMMonitor-Bridging-Header.h"; sourceTree = "<group>"; };
+		B6B655841E062D4E00FC2864 /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIFont+Extension.swift"; path = "src/Extensions/UIFont+Extension/UIFont+Extension.swift"; sourceTree = "<group>"; };
+		B6B655871E07D80100FC2864 /* iBPMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMNavigationController.h; path = src/Controllers/iBPMNavigationController/iBPMNavigationController.h; sourceTree = "<group>"; };
+		B6B655881E07D80100FC2864 /* iBPMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMNavigationController.m; path = src/Controllers/iBPMNavigationController/iBPMNavigationController.m; sourceTree = "<group>"; };
+		B6DC0D511E03121600627007 /* iBPMSideDrawerSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMSideDrawerSectionHeaderView.h; path = src/Views/iBPMSideDrawerSectionHeaderView/iBPMSideDrawerSectionHeaderView.h; sourceTree = "<group>"; };
+		B6DC0D521E03121600627007 /* iBPMSideDrawerSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMSideDrawerSectionHeaderView.m; path = src/Views/iBPMSideDrawerSectionHeaderView/iBPMSideDrawerSectionHeaderView.m; sourceTree = "<group>"; };
+		B6DC0D551E03123400627007 /* iBPMSideDrawerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMSideDrawerTableViewCell.h; path = src/Views/iBPMSideDrawerTableViewCell/iBPMSideDrawerTableViewCell.h; sourceTree = "<group>"; };
+		B6DC0D561E03123400627007 /* iBPMSideDrawerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMSideDrawerTableViewCell.m; path = src/Views/iBPMSideDrawerTableViewCell/iBPMSideDrawerTableViewCell.m; sourceTree = "<group>"; };
+		B6DC0D591E03125400627007 /* iBPMTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMTableViewCell.h; path = src/Views/iBPMTableViewCell/iBPMTableViewCell.h; sourceTree = "<group>"; };
+		B6DC0D5A1E03125400627007 /* iBPMTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMTableViewCell.m; path = src/Views/iBPMTableViewCell/iBPMTableViewCell.m; sourceTree = "<group>"; };
+		B6DC0D5D1E03162B00627007 /* iBPMColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMColorUtils.h; path = iBPMMonitor/src/Utils/iBPMColorUtils/iBPMColorUtils.h; sourceTree = "<group>"; };
+		B6DC0D5E1E03162B00627007 /* iBPMColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMColorUtils.m; path = iBPMMonitor/src/Utils/iBPMColorUtils/iBPMColorUtils.m; sourceTree = "<group>"; };
+		B6DC0D621E036EE400627007 /* MBProgressHUD+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MBProgressHUD+Extension.h"; path = "src/Extensions/MBProgressHUD+Extension/MBProgressHUD+Extension.h"; sourceTree = "<group>"; };
+		B6DC0D631E036EE400627007 /* MBProgressHUD+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MBProgressHUD+Extension.m"; path = "src/Extensions/MBProgressHUD+Extension/MBProgressHUD+Extension.m"; sourceTree = "<group>"; };
+		B6DC0D661E0371A900627007 /* UIAlertController+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertController+Extension.h"; path = "src/Extensions/UIAlertController+Extension/UIAlertController+Extension.h"; sourceTree = "<group>"; };
+		B6DC0D671E0371A900627007 /* UIAlertController+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertController+Extension.m"; path = "src/Extensions/UIAlertController+Extension/UIAlertController+Extension.m"; sourceTree = "<group>"; };
+		B6DC0D6A1E03765D00627007 /* iBPMDomainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMDomainViewController.h; path = src/Controllers/iBPMDomainViewController/iBPMDomainViewController.h; sourceTree = "<group>"; };
+		B6DC0D6B1E03765D00627007 /* iBPMDomainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMDomainViewController.m; path = src/Controllers/iBPMDomainViewController/iBPMDomainViewController.m; sourceTree = "<group>"; };
+		B6DC0D6C1E03765D00627007 /* iBPMDomainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iBPMDomainViewController.xib; path = src/Controllers/iBPMDomainViewController/iBPMDomainViewController.xib; sourceTree = "<group>"; };
+		B6DC0D701E037C0D00627007 /* iBPMDisclosureIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMDisclosureIndicator.h; path = src/Views/iBPMDisclosureIndicator/iBPMDisclosureIndicator.h; sourceTree = "<group>"; };
+		B6DC0D711E037C0D00627007 /* iBPMDisclosureIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMDisclosureIndicator.m; path = src/Views/iBPMDisclosureIndicator/iBPMDisclosureIndicator.m; sourceTree = "<group>"; };
+		B6DC0D741E037D0D00627007 /* iBPMCustomCheckmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMCustomCheckmark.h; path = src/Views/iBPMCustomCheckmark/iBPMCustomCheckmark.h; sourceTree = "<group>"; };
+		B6DC0D751E037D0D00627007 /* iBPMCustomCheckmark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMCustomCheckmark.m; path = src/Views/iBPMCustomCheckmark/iBPMCustomCheckmark.m; sourceTree = "<group>"; };
+		B6DC0D781E03800100627007 /* iBPMBackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMBackButton.h; path = src/Views/iBPMBackButton/iBPMBackButton.h; sourceTree = "<group>"; };
+		B6DC0D791E03800100627007 /* iBPMBackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMBackButton.m; path = src/Views/iBPMBackButton/iBPMBackButton.m; sourceTree = "<group>"; };
+		B6DC0D7C1E0380F300627007 /* iBPMBarBackButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMBarBackButtonItem.h; path = src/Views/iBPMBarBackButtonItem/iBPMBarBackButtonItem.h; sourceTree = "<group>"; };
+		B6DC0D7D1E0380F300627007 /* iBPMBarBackButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMBarBackButtonItem.m; path = src/Views/iBPMBarBackButtonItem/iBPMBarBackButtonItem.m; sourceTree = "<group>"; };
+		B6E9DBC01E089A6000DD3CA0 /* iBPMDomainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMDomainTableViewCell.h; path = src/Views/iBPMDomainTableViewCell/iBPMDomainTableViewCell.h; sourceTree = "<group>"; };
+		B6E9DBC11E089A6000DD3CA0 /* iBPMDomainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMDomainTableViewCell.m; path = src/Views/iBPMDomainTableViewCell/iBPMDomainTableViewCell.m; sourceTree = "<group>"; };
+		B6EC43D41E01B5B40061E5A9 /* iBPMMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBPMMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6EC43D81E01B5B40061E5A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6EC43E11E01B5B40061E5A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6EC43E31E01B5B40061E5A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6EC43E61E01B5B40061E5A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6EC43E81E01B5B40061E5A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6EC43F61E01BAB00061E5A9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = src/Delegates/AppDelegate/AppDelegate.h; sourceTree = "<group>"; };
+		B6EC43F71E01BAB00061E5A9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = src/Delegates/AppDelegate/AppDelegate.m; sourceTree = "<group>"; };
+		B6EC43FC1E01BCD60061E5A9 /* iBPMPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = iBPMPrefixHeader.pch; path = src/Others/iBPMPrefixHeader.pch; sourceTree = "<group>"; };
+		B6EC44031E01C20C0061E5A9 /* iBPMDataProviderInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = iBPMDataProviderInterface.h; path = src/DataProviders/iBPMDataProviderInterface/iBPMDataProviderInterface.h; sourceTree = "<group>"; };
+		B6EC44051E01C21B0061E5A9 /* iBPMDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMDataProvider.h; path = src/DataProviders/iBPMDataProvider/iBPMDataProvider.h; sourceTree = "<group>"; };
+		B6EC44061E01C21B0061E5A9 /* iBPMDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMDataProvider.m; path = src/DataProviders/iBPMDataProvider/iBPMDataProvider.m; sourceTree = "<group>"; };
+		B6EC44101E01C3D40061E5A9 /* iBPMLocalDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMLocalDataProvider.h; path = src/DataProviders/iBPMLocalDataProvider/iBPMLocalDataProvider.h; sourceTree = "<group>"; };
+		B6EC44111E01C3D40061E5A9 /* iBPMLocalDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMLocalDataProvider.m; path = src/DataProviders/iBPMLocalDataProvider/iBPMLocalDataProvider.m; sourceTree = "<group>"; };
+		B6EC44141E01C4170061E5A9 /* iBPMServerDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMServerDataProvider.h; path = src/DataProviders/iBPMServerDataProvider/iBPMServerDataProvider.h; sourceTree = "<group>"; };
+		B6EC44151E01C4170061E5A9 /* iBPMServerDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMServerDataProvider.m; path = src/DataProviders/iBPMServerDataProvider/iBPMServerDataProvider.m; sourceTree = "<group>"; };
+		B6EC44181E01CC200061E5A9 /* status.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = status.json; path = iBPMMonitor/Resources/LocalResponseJSONs/status.json; sourceTree = "<group>"; };
+		B6EC441F1E01CE8B0061E5A9 /* iBPMDataParserUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMDataParserUtils.h; path = iBPMMonitor/src/Utils/iBPMDataParserUtils/iBPMDataParserUtils.h; sourceTree = "<group>"; };
+		B6EC44201E01CE8B0061E5A9 /* iBPMDataParserUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMDataParserUtils.m; path = iBPMMonitor/src/Utils/iBPMDataParserUtils/iBPMDataParserUtils.m; sourceTree = "<group>"; };
+		B6EC44251E01D3820061E5A9 /* iBPMLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMLoginViewController.h; path = src/Controllers/iBPMLoginViewController/iBPMLoginViewController.h; sourceTree = "<group>"; };
+		B6EC44321E01ED320061E5A9 /* iBPMDataProvider+PostProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "iBPMDataProvider+PostProcessor.h"; path = "src/Extensions/iBPMDataProvider+PostProcessor/iBPMDataProvider+PostProcessor.h"; sourceTree = "<group>"; };
+		B6EC44331E01ED320061E5A9 /* iBPMDataProvider+PostProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "iBPMDataProvider+PostProcessor.m"; path = "src/Extensions/iBPMDataProvider+PostProcessor/iBPMDataProvider+PostProcessor.m"; sourceTree = "<group>"; };
+		B6EC44351E01F0070061E5A9 /* iBPMOperationQueueUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMOperationQueueUtils.h; path = iBPMMonitor/src/Utils/iBPMOperationQueueUtils/iBPMOperationQueueUtils.h; sourceTree = "<group>"; };
+		B6EC44361E01F0070061E5A9 /* iBPMOperationQueueUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMOperationQueueUtils.m; path = iBPMMonitor/src/Utils/iBPMOperationQueueUtils/iBPMOperationQueueUtils.m; sourceTree = "<group>"; };
+		B6EC44391E01F75B0061E5A9 /* iBPMDomainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMDomainModel.h; path = src/Models/iBPMDomainModel/iBPMDomainModel.h; sourceTree = "<group>"; };
+		B6EC443A1E01F75B0061E5A9 /* iBPMDomainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMDomainModel.m; path = src/Models/iBPMDomainModel/iBPMDomainModel.m; sourceTree = "<group>"; };
+		B6EC44401E02026D0061E5A9 /* UITextField+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextField+Extension.h"; path = "src/Extensions/UITextField+Extension/UITextField+Extension.h"; sourceTree = "<group>"; };
+		B6EC44411E02026D0061E5A9 /* UITextField+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+Extension.m"; path = "src/Extensions/UITextField+Extension/UITextField+Extension.m"; sourceTree = "<group>"; };
+		B6EC444D1E0216880061E5A9 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = src/Views/MBProgressHUD/MBProgressHUD.h; sourceTree = "<group>"; };
+		B6EC444E1E0216880061E5A9 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = src/Views/MBProgressHUD/MBProgressHUD.m; sourceTree = "<group>"; };
+		B6EC448D1E021B300061E5A9 /* iBPMSidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMSidebarViewController.h; path = src/Controllers/iBPMSidebarTableViewController/iBPMSidebarViewController.h; sourceTree = "<group>"; };
+		B6EC448E1E021B300061E5A9 /* iBPMSidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMSidebarViewController.m; path = src/Controllers/iBPMSidebarTableViewController/iBPMSidebarViewController.m; sourceTree = "<group>"; };
+		B6EC448F1E021B300061E5A9 /* iBPMSidebarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iBPMSidebarViewController.xib; path = src/Controllers/iBPMSidebarTableViewController/iBPMSidebarViewController.xib; sourceTree = "<group>"; };
+		B6EC44931E021BB10061E5A9 /* iBPMLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMLoginViewController.m; path = src/Controllers/iBPMLoginViewController/iBPMLoginViewController.m; sourceTree = "<group>"; };
+		B6EC44971E0224220061E5A9 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDrawerController.h; path = src/Controllers/MMDrawerController/MMDrawerController.h; sourceTree = "<group>"; };
+		B6EC44981E0224220061E5A9 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMDrawerController.m; path = src/Controllers/MMDrawerController/MMDrawerController.m; sourceTree = "<group>"; };
+		B6EC44991E0224220061E5A9 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MMDrawerController+Subclass.h"; path = "src/Controllers/MMDrawerController/MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		B6EC449A1E0224220061E5A9 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDrawerVisualState.h; path = src/Controllers/MMDrawerController/MMDrawerVisualState.h; sourceTree = "<group>"; };
+		B6EC449B1E0224220061E5A9 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMDrawerVisualState.m; path = src/Controllers/MMDrawerController/MMDrawerVisualState.m; sourceTree = "<group>"; };
+		B6EC44A31E023FEE0061E5A9 /* UIColor+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extensions.h"; path = "src/Extensions/UIColor+Extension/UIColor+Extensions.h"; sourceTree = "<group>"; };
+		B6EC44A41E023FEE0061E5A9 /* UIColor+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extensions.m"; path = "src/Extensions/UIColor+Extension/UIColor+Extensions.m"; sourceTree = "<group>"; };
+		C7169E9C1E0C95AE0007CD0A /* iBPMAuthenticationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMAuthenticationManager.h; path = src/Managers/iBPMAthenticationManager/iBPMAuthenticationManager.h; sourceTree = "<group>"; };
+		C7169E9D1E0C95AE0007CD0A /* iBPMAuthenticationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMAuthenticationManager.m; path = src/Managers/iBPMAthenticationManager/iBPMAuthenticationManager.m; sourceTree = "<group>"; };
+		C7169EA11E1DA43D0007CD0A /* iBPMStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMStatusViewController.h; path = src/Controllers/iBPMStatusViewController/iBPMStatusViewController.h; sourceTree = "<group>"; };
+		C7169EA21E1DA43D0007CD0A /* iBPMStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMStatusViewController.m; path = src/Controllers/iBPMStatusViewController/iBPMStatusViewController.m; sourceTree = "<group>"; };
+		C7169EA31E1DA43D0007CD0A /* iBPMStatusViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iBPMStatusViewController.xib; path = src/Controllers/iBPMStatusViewController/iBPMStatusViewController.xib; sourceTree = "<group>"; };
+		C7169EAD1E1DCA750007CD0A /* iBPMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMMainViewController.h; path = src/Controllers/iBPMMainViewController/iBPMMainViewController.h; sourceTree = "<group>"; };
+		C7169EAE1E1DCA750007CD0A /* iBPMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMMainViewController.m; path = src/Controllers/iBPMMainViewController/iBPMMainViewController.m; sourceTree = "<group>"; };
+		C7169EAF1E1DCA750007CD0A /* iBPMMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iBPMMainViewController.xib; path = src/Controllers/iBPMMainViewController/iBPMMainViewController.xib; sourceTree = "<group>"; };
+		C7169EB71E1DCAFB0007CD0A /* iBPMMonitorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMMonitorViewController.h; path = src/Controllers/iBPMMonitorViewController/iBPMMonitorViewController.h; sourceTree = "<group>"; };
+		C7169EB81E1DCAFB0007CD0A /* iBPMMonitorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMMonitorViewController.m; path = src/Controllers/iBPMMonitorViewController/iBPMMonitorViewController.m; sourceTree = "<group>"; };
+		C7169EB91E1DCAFB0007CD0A /* iBPMMonitorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iBPMMonitorViewController.xib; path = src/Controllers/iBPMMonitorViewController/iBPMMonitorViewController.xib; sourceTree = "<group>"; };
+		C7169EBD1E1DCBC10007CD0A /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+MMDrawerController.h"; path = "src/Extensions/UIViewController+MMDrawerController/UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		C7169EBE1E1DCBC10007CD0A /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+MMDrawerController.m"; path = "src/Extensions/UIViewController+MMDrawerController/UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		C7169EC11E1EEDBA0007CD0A /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Extension.h"; path = "src/Extensions/UIImage+Extension/UIImage+Extension.h"; sourceTree = "<group>"; };
+		C7169EC21E1EEDFA0007CD0A /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extension.m"; path = "src/Extensions/UIImage+Extension/UIImage+Extension.m"; sourceTree = "<group>"; };
+		C7169EC51E1EF2580007CD0A /* UIView+YALConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+YALConstraints.h"; path = "src/Extensions/UIView+YALConstraints/UIView+YALConstraints.h"; sourceTree = "<group>"; };
+		C7169EC61E1EF2580007CD0A /* UIView+YALConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+YALConstraints.m"; path = "src/Extensions/UIView+YALConstraints/UIView+YALConstraints.m"; sourceTree = "<group>"; };
+		C77B44901E09EC8100821598 /* YALContextMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YALContextMenuCell.h; path = src/Views/YALContextMenu/YALContextMenuCell.h; sourceTree = "<group>"; };
+		C77B44911E09EC8100821598 /* YALContextMenuTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YALContextMenuTableView.h; path = src/Views/YALContextMenu/YALContextMenuTableView.h; sourceTree = "<group>"; };
+		C77B44921E09EC8100821598 /* YALContextMenuTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YALContextMenuTableView.m; path = src/Views/YALContextMenu/YALContextMenuTableView.m; sourceTree = "<group>"; };
+		C77B44961E09F79D00821598 /* ContextMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContextMenuCell.h; path = src/Views/ContextMenuCell/ContextMenuCell.h; sourceTree = "<group>"; };
+		C77B44971E09F79D00821598 /* ContextMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContextMenuCell.m; path = src/Views/ContextMenuCell/ContextMenuCell.m; sourceTree = "<group>"; };
+		C77B44981E09F79D00821598 /* ContextMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ContextMenuCell.xib; path = src/Views/ContextMenuCell/ContextMenuCell.xib; sourceTree = "<group>"; };
+		C77B449C1E0A079300821598 /* iBPMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMDrawerBarButtonItem.h; path = src/Controllers/MMDrawerController/iBPMDrawerBarButtonItem/iBPMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		C77B449D1E0A079300821598 /* iBPMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMDrawerBarButtonItem.m; path = src/Controllers/MMDrawerController/iBPMDrawerBarButtonItem/iBPMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		C77B44A21E0B2A2E00821598 /* gssc_rma_DRD-1045698.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "gssc_rma_DRD-1045698.json"; path = "iBPMMonitor/Resources/LocalResponseJSONs/gssc_rma_DRD-1045698.json"; sourceTree = "<group>"; };
+		C77B44A41E0B346800821598 /* iBPMSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMSettingsViewController.h; path = src/Controllers/iBPMSettingsViewController/iBPMSettingsViewController.h; sourceTree = "<group>"; };
+		C77B44A51E0B346800821598 /* iBPMSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMSettingsViewController.m; path = src/Controllers/iBPMSettingsViewController/iBPMSettingsViewController.m; sourceTree = "<group>"; };
+		C77B44A61E0B346800821598 /* iBPMSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iBPMSettingsViewController.xib; path = src/Controllers/iBPMSettingsViewController/iBPMSettingsViewController.xib; sourceTree = "<group>"; };
+		C77EF1B31E25908F00B3772A /* iBPMDetailedStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMDetailedStatusViewController.h; path = src/Controllers/iBPMDetailedStatusViewController/iBPMDetailedStatusViewController.h; sourceTree = "<group>"; };
+		C77EF1B41E25908F00B3772A /* iBPMDetailedStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMDetailedStatusViewController.m; path = src/Controllers/iBPMDetailedStatusViewController/iBPMDetailedStatusViewController.m; sourceTree = "<group>"; };
+		C77EF1B51E25908F00B3772A /* iBPMDetailedStatusViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iBPMDetailedStatusViewController.xib; path = src/Controllers/iBPMDetailedStatusViewController/iBPMDetailedStatusViewController.xib; sourceTree = "<group>"; };
+		C77EF1BB1E2EEB0700B3772A /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		C77EF1BD1E2EEB0E00B3772A /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		C77EF1BF1E2EEB1600B3772A /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		C77EF1C51E2EEE3C00B3772A /* iBPMNotifications.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = iBPMNotifications.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C77EF1C71E2EEE3C00B3772A /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
+		C77EF1C81E2EEE3C00B3772A /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
+		C77EF1CA1E2EEE3C00B3772A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C77EF1D51E32D54600B3772A /* iBPMHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMHistoryViewController.h; path = src/Controllers/iBPMHistoryViewController/iBPMHistoryViewController.h; sourceTree = "<group>"; };
+		C77EF1D61E32D54600B3772A /* iBPMHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMHistoryViewController.m; path = src/Controllers/iBPMHistoryViewController/iBPMHistoryViewController.m; sourceTree = "<group>"; };
+		C77EF1D71E32D54600B3772A /* iBPMHistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iBPMHistoryViewController.xib; path = src/Controllers/iBPMHistoryViewController/iBPMHistoryViewController.xib; sourceTree = "<group>"; };
+		C77EF1DD1E32E28B00B3772A /* HistoryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HistoryCollectionViewCell.h; path = src/Views/iBPMHistoryCollectionViewCell/HistoryCollectionViewCell.h; sourceTree = "<group>"; };
+		C77EF1DE1E32E28B00B3772A /* HistoryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HistoryCollectionViewCell.m; path = src/Views/iBPMHistoryCollectionViewCell/HistoryCollectionViewCell.m; sourceTree = "<group>"; };
+		C77EF1DF1E32E28B00B3772A /* HistoryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HistoryCollectionViewCell.xib; path = src/Views/iBPMHistoryCollectionViewCell/HistoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		C77EF1E21E36C44E00B3772A /* HistoryFilters.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HistoryFilters.plist; sourceTree = "<group>"; };
+		C7A0057B1E0C924F001AF641 /* iBPMConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBPMConnection.h; path = src/Networking/iBPMConnection/iBPMConnection.h; sourceTree = "<group>"; };
+		C7A0057C1E0C924F001AF641 /* iBPMConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBPMConnection.m; path = src/Networking/iBPMConnection/iBPMConnection.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6EC43D11E01B5B30061E5A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77EF1C01E2EEB1600B3772A /* NotificationCenter.framework in Frameworks */,
+				C77EF1BE1E2EEB0E00B3772A /* UserNotifications.framework in Frameworks */,
+				C77EF1BC1E2EEB0700B3772A /* UserNotificationsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77EF1C21E2EEE3C00B3772A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6102EEE1E04A86400B1BA7A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B6102EF31E04AAAB00B1BA7A /* iBPMDataProviderManager */,
+				B6102EEF1E04A86C00B1BA7A /* iBPMDrawerVisualStateManager */,
+				B6102EF71E04C3D500B1BA7A /* iBPMStateManager */,
+				C7169E9F1E0C95B40007CD0A /* iBPMAuthenticationManager */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		B6102EEF1E04A86C00B1BA7A /* iBPMDrawerVisualStateManager */ = {
+			isa = PBXGroup;
+			children = (
+				B6102EEB1E04A86000B1BA7A /* iBPMDrawerVisualStateManager.h */,
+				B6102EEC1E04A86000B1BA7A /* iBPMDrawerVisualStateManager.m */,
+			);
+			name = iBPMDrawerVisualStateManager;
+			sourceTree = "<group>";
+		};
+		B6102EF31E04AAAB00B1BA7A /* iBPMDataProviderManager */ = {
+			isa = PBXGroup;
+			children = (
+				B6102EF01E04AAA800B1BA7A /* iBPMDataProviderManager.h */,
+				B6102EF11E04AAA800B1BA7A /* iBPMDataProviderManager.m */,
+			);
+			name = iBPMDataProviderManager;
+			sourceTree = "<group>";
+		};
+		B6102EF71E04C3D500B1BA7A /* iBPMStateManager */ = {
+			isa = PBXGroup;
+			children = (
+				B6102EF41E04C3C700B1BA7A /* iBPMStateManager.h */,
+				B6102EF51E04C3C700B1BA7A /* iBPMStateManager.m */,
+			);
+			name = iBPMStateManager;
+			sourceTree = "<group>";
+		};
+		B6102EFB1E04D03F00B1BA7A /* NSString+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B6102EF81E04D03500B1BA7A /* NSString+Extensions.h */,
+				B6102EF91E04D03500B1BA7A /* NSString+Extensions.m */,
+			);
+			name = "NSString+Extensions";
+			sourceTree = "<group>";
+		};
+		B6102F011E05005300B1BA7A /* iBPMMainTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B6102EFC1E05004C00B1BA7A /* iBPMMainTableViewCell.h */,
+				B6102EFD1E05004C00B1BA7A /* iBPMMainTableViewCell.m */,
+				B6102EFE1E05004C00B1BA7A /* iBPMMainTableViewCell.xib */,
+			);
+			name = iBPMMainTableViewCell;
+			sourceTree = "<group>";
+		};
+		B64AFA741E08BE0D00A590D4 /* UIView+Fold */ = {
+			isa = PBXGroup;
+			children = (
+				B64AFA711E08BE0800A590D4 /* UIView+Fold.h */,
+				B64AFA721E08BE0800A590D4 /* UIView+Fold.m */,
+			);
+			name = "UIView+Fold";
+			sourceTree = "<group>";
+		};
+		B64AFA7A1E08CA2B00A590D4 /* iBPMAppDetailTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B64AFA751E08CA2500A590D4 /* iBPMAppDetailTableViewCell.h */,
+				B64AFA761E08CA2500A590D4 /* iBPMAppDetailTableViewCell.m */,
+				B64AFA771E08CA2500A590D4 /* iBPMAppDetailTableViewCell.xib */,
+			);
+			name = iBPMAppDetailTableViewCell;
+			sourceTree = "<group>";
+		};
+		B6AE056F1E09B3D50074D22A /* iBPMDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				B6AE056C1E09B3CE0074D22A /* iBPMDataModel.h */,
+				B6AE056D1E09B3CE0074D22A /* iBPMDataModel.m */,
+			);
+			name = iBPMDataModel;
+			sourceTree = "<group>";
+		};
+		B6AE05731E09B4040074D22A /* iBPMAppModel */ = {
+			isa = PBXGroup;
+			children = (
+				B6AE05701E09B3FF0074D22A /* iBPMAppModel.h */,
+				B6AE05711E09B3FF0074D22A /* iBPMAppModel.m */,
+			);
+			name = iBPMAppModel;
+			sourceTree = "<group>";
+		};
+		B6B655861E0630B300FC2864 /* UIFont+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B6B655841E062D4E00FC2864 /* UIFont+Extension.swift */,
+			);
+			name = "UIFont+Extension";
+			sourceTree = "<group>";
+		};
+		B6B6558A1E07D80C00FC2864 /* iBPMNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				B6B655871E07D80100FC2864 /* iBPMNavigationController.h */,
+				B6B655881E07D80100FC2864 /* iBPMNavigationController.m */,
+			);
+			name = iBPMNavigationController;
+			sourceTree = "<group>";
+		};
+		B6DC0D541E03122B00627007 /* iBPMSideDrawerSectionHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				B6DC0D511E03121600627007 /* iBPMSideDrawerSectionHeaderView.h */,
+				B6DC0D521E03121600627007 /* iBPMSideDrawerSectionHeaderView.m */,
+			);
+			name = iBPMSideDrawerSectionHeaderView;
+			sourceTree = "<group>";
+		};
+		B6DC0D581E03123700627007 /* iBPMSideDrawerTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B6DC0D551E03123400627007 /* iBPMSideDrawerTableViewCell.h */,
+				B6DC0D561E03123400627007 /* iBPMSideDrawerTableViewCell.m */,
+			);
+			name = iBPMSideDrawerTableViewCell;
+			sourceTree = "<group>";
+		};
+		B6DC0D5C1E03125A00627007 /* iBPMTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B6DC0D591E03125400627007 /* iBPMTableViewCell.h */,
+				B6DC0D5A1E03125400627007 /* iBPMTableViewCell.m */,
+			);
+			name = iBPMTableViewCell;
+			sourceTree = "<group>";
+		};
+		B6DC0D601E03163300627007 /* iBPMColorUtils */ = {
+			isa = PBXGroup;
+			children = (
+				B6DC0D5D1E03162B00627007 /* iBPMColorUtils.h */,
+				B6DC0D5E1E03162B00627007 /* iBPMColorUtils.m */,
+			);
+			name = iBPMColorUtils;
+			sourceTree = "<group>";
+		};
+		B6DC0D611E034ABA00627007 /* UIColor+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC44A31E023FEE0061E5A9 /* UIColor+Extensions.h */,
+				B6EC44A41E023FEE0061E5A9 /* UIColor+Extensions.m */,
+			);
+			name = "UIColor+Extensions";
+			sourceTree = "<group>";
+		};
+		B6DC0D651E036EF400627007 /* MBProgressHUD+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B6DC0D621E036EE400627007 /* MBProgressHUD+Extension.h */,
+				B6DC0D631E036EE400627007 /* MBProgressHUD+Extension.m */,
+			);
+			name = "MBProgressHUD+Extension";
+			sourceTree = "<group>";
+		};
+		B6DC0D691E0371AF00627007 /* UIAlertController+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B6DC0D661E0371A900627007 /* UIAlertController+Extension.h */,
+				B6DC0D671E0371A900627007 /* UIAlertController+Extension.m */,
+			);
+			name = "UIAlertController+Extension";
+			sourceTree = "<group>";
+		};
+		B6DC0D6F1E03766100627007 /* iBPMDomainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B6DC0D6A1E03765D00627007 /* iBPMDomainViewController.h */,
+				B6DC0D6B1E03765D00627007 /* iBPMDomainViewController.m */,
+				B6DC0D6C1E03765D00627007 /* iBPMDomainViewController.xib */,
+			);
+			name = iBPMDomainViewController;
+			sourceTree = "<group>";
+		};
+		B6DC0D731E037C1300627007 /* iBPMDisclosureIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				B6DC0D701E037C0D00627007 /* iBPMDisclosureIndicator.h */,
+				B6DC0D711E037C0D00627007 /* iBPMDisclosureIndicator.m */,
+			);
+			name = iBPMDisclosureIndicator;
+			sourceTree = "<group>";
+		};
+		B6DC0D771E037DB900627007 /* iBPMCustomCheckmark */ = {
+			isa = PBXGroup;
+			children = (
+				B6DC0D741E037D0D00627007 /* iBPMCustomCheckmark.h */,
+				B6DC0D751E037D0D00627007 /* iBPMCustomCheckmark.m */,
+			);
+			name = iBPMCustomCheckmark;
+			sourceTree = "<group>";
+		};
+		B6DC0D7B1E03800700627007 /* iBPMBackButton */ = {
+			isa = PBXGroup;
+			children = (
+				B6DC0D781E03800100627007 /* iBPMBackButton.h */,
+				B6DC0D791E03800100627007 /* iBPMBackButton.m */,
+			);
+			name = iBPMBackButton;
+			sourceTree = "<group>";
+		};
+		B6DC0D7F1E03810100627007 /* iBPMBarBackButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				B6DC0D7C1E0380F300627007 /* iBPMBarBackButtonItem.h */,
+				B6DC0D7D1E0380F300627007 /* iBPMBarBackButtonItem.m */,
+			);
+			name = iBPMBarBackButtonItem;
+			sourceTree = "<group>";
+		};
+		B6E9DBC31E089A6800DD3CA0 /* iBPMDomainTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B6E9DBC01E089A6000DD3CA0 /* iBPMDomainTableViewCell.h */,
+				B6E9DBC11E089A6000DD3CA0 /* iBPMDomainTableViewCell.m */,
+			);
+			name = iBPMDomainTableViewCell;
+			sourceTree = "<group>";
+		};
+		B6EC43CB1E01B5B30061E5A9 = {
+			isa = PBXGroup;
+			children = (
+				B6EC441A1E01CC240061E5A9 /* Resources */,
+				B6EC43D61E01B5B40061E5A9 /* iBPMMonitor */,
+				C77EF1C61E2EEE3C00B3772A /* iBPMNotifications */,
+				B6EC43D51E01B5B40061E5A9 /* Products */,
+				C77EF1BA1E2EEB0700B3772A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B6EC43D51E01B5B40061E5A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC43D41E01B5B40061E5A9 /* iBPMMonitor.app */,
+				C77EF1C51E2EEE3C00B3772A /* iBPMNotifications.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6EC43D61E01B5B40061E5A9 /* iBPMMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				9B1317E51E301B160080691E /* iBPMMonitor.entitlements */,
+				B6EC43F21E01B8F20061E5A9 /* Controllers */,
+				B6EC44001E01C0400061E5A9 /* DataProviders */,
+				B6EC43F91E01BAB60061E5A9 /* Delegates */,
+				B6EC44311E01DDF90061E5A9 /* Extensions */,
+				B6102EEE1E04A86400B1BA7A /* Managers */,
+				B6EC442C1E01DA900061E5A9 /* Models */,
+				B6EC44841E0216FE0061E5A9 /* Networking */,
+				B6EC43FB1E01BC9A0061E5A9 /* Others */,
+				B6EC44221E01CE910061E5A9 /* Utils */,
+				B6EC44511E0216930061E5A9 /* Views */,
+				C7A0057A1E0B5E81001AF641 /* Storyboard */,
+				B6EC43E31E01B5B40061E5A9 /* Assets.xcassets */,
+				B6EC43D71E01B5B40061E5A9 /* Supporting Files */,
+			);
+			path = iBPMMonitor;
+			sourceTree = "<group>";
+		};
+		B6EC43D71E01B5B40061E5A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC43E81E01B5B40061E5A9 /* Info.plist */,
+				B6EC43D81E01B5B40061E5A9 /* main.m */,
+				C77EF1E21E36C44E00B3772A /* HistoryFilters.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6EC43F21E01B8F20061E5A9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC44A21E02242E0061E5A9 /* MMDrawerController */,
+				B6DC0D6F1E03766100627007 /* iBPMDomainViewController */,
+				B6EC44271E01D38C0061E5A9 /* iBPMLoginViewController */,
+				B6EC44471E0213100061E5A9 /* iBPMMainViewController */,
+				B6B6558A1E07D80C00FC2864 /* iBPMNavigationController */,
+				C7169EBC1E1DCB000007CD0A /* iBPMMonitorViewController */,
+				C77B44A91E0B347000821598 /* iBPMSettingsViewController */,
+				B6EC44921E021B360061E5A9 /* iBPMSidebarViewController */,
+				C7169EA61E1DA4410007CD0A /* iBPMStatusViewController */,
+				C77EF1B81E25909500B3772A /* iBPMDetailedStatusViewController */,
+				C77EF1D41E32D46E00B3772A /* iBPMHistoryViewController */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B6EC43F91E01BAB60061E5A9 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC43FA1E01BAF90061E5A9 /* AppDelegate */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		B6EC43FA1E01BAF90061E5A9 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC43F61E01BAB00061E5A9 /* AppDelegate.h */,
+				B6EC43F71E01BAB00061E5A9 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B6EC43FB1E01BC9A0061E5A9 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				B6B655831E062D4E00FC2864 /* iBPMMonitor-Bridging-Header.h */,
+				B6EC43FC1E01BCD60061E5A9 /* iBPMPrefixHeader.pch */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		B6EC44001E01C0400061E5A9 /* DataProviders */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC44081E01C21F0061E5A9 /* iBPMDataProvider */,
+				B6EC44041E01C2120061E5A9 /* iBPMDataProviderInterface */,
+				B6EC44131E01C3DD0061E5A9 /* iBPMLocalDataProvider */,
+				B6EC44171E01C41F0061E5A9 /* iBPMServerDataProvider */,
+			);
+			name = DataProviders;
+			sourceTree = "<group>";
+		};
+		B6EC44041E01C2120061E5A9 /* iBPMDataProviderInterface */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC44031E01C20C0061E5A9 /* iBPMDataProviderInterface.h */,
+			);
+			name = iBPMDataProviderInterface;
+			sourceTree = "<group>";
+		};
+		B6EC44081E01C21F0061E5A9 /* iBPMDataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC44051E01C21B0061E5A9 /* iBPMDataProvider.h */,
+				B6EC44061E01C21B0061E5A9 /* iBPMDataProvider.m */,
+			);
+			name = iBPMDataProvider;
+			sourceTree = "<group>";
+		};
+		B6EC44131E01C3DD0061E5A9 /* iBPMLocalDataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC44101E01C3D40061E5A9 /* iBPMLocalDataProvider.h */,
+				B6EC44111E01C3D40061E5A9 /* iBPMLocalDataProvider.m */,
+			);
+			name = iBPMLocalDataProvider;
+			sourceTree = "<group>";
+		};
+		B6EC44171E01C41F0061E5A9 /* iBPMServerDataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC44141E01C4170061E5A9 /* iBPMServerDataProvider.h */,
+				B6EC44151E01C4170061E5A9 /* iBPMServerDataProvider.m */,
+			);
+			name = iBPMServerDataProvider;
+			sourceTree = "<group>";
+		};
+		B6EC441A1E01CC240061E5A9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC441B1E01CC2F0061E5A9 /* LocalResponseJSONs */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B6EC441B1E01CC2F0061E5A9 /* LocalResponseJSONs */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC44181E01CC200061E5A9 /* status.json */,
+				C77B44A21E0B2A2E00821598 /* gssc_rma_DRD-1045698.json */,
+			);
+			name = LocalResponseJSONs;
+			sourceTree = "<group>";
+		};
+		B6EC44221E01CE910061E5A9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B6DC0D601E03163300627007 /* iBPMColorUtils */,
+				B6EC44231E01CE970061E5A9 /* iBPMDataParserUtils */,
+				B6EC44381E01F01C0061E5A9 /* iBPMOperationQueueUtils */,
+			);
+			name = Utils;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B6EC44231E01CE970061E5A9 /* iBPMDataParserUtils */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC441F1E01CE8B0061E5A9 /* iBPMDataParserUtils.h */,
+				B6EC44201E01CE8B0061E5A9 /* iBPMDataParserUtils.m */,
+			);
+			name = iBPMDataParserUtils;
+			sourceTree = "<group>";
+		};
+		B6EC44271E01D38C0061E5A9 /* iBPMLoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC44251E01D3820061E5A9 /* iBPMLoginViewController.h */,
+				B6EC44931E021BB10061E5A9 /* iBPMLoginViewController.m */,
+			);
+			name = iBPMLoginViewController;
+			sourceTree = "<group>";
+		};
+		B6EC442C1E01DA900061E5A9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B6AE05731E09B4040074D22A /* iBPMAppModel */,
+				B6AE056F1E09B3D50074D22A /* iBPMDataModel */,
+				B6EC443C1E01F7610061E5A9 /* iBPMDomainModel */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B6EC44301E01DDF40061E5A9 /* iBPMDataProvider+PostProcessor */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC44321E01ED320061E5A9 /* iBPMDataProvider+PostProcessor.h */,
+				B6EC44331E01ED320061E5A9 /* iBPMDataProvider+PostProcessor.m */,
+			);
+			name = "iBPMDataProvider+PostProcessor";
+			sourceTree = "<group>";
+		};
+		B6EC44311E01DDF90061E5A9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC44301E01DDF40061E5A9 /* iBPMDataProvider+PostProcessor */,
+				B6102EFB1E04D03F00B1BA7A /* NSString+Extensions */,
+				B6DC0D651E036EF400627007 /* MBProgressHUD+Extension */,
+				B6DC0D611E034ABA00627007 /* UIColor+Extensions */,
+				B6DC0D691E0371AF00627007 /* UIAlertController+Extension */,
+				B6B655861E0630B300FC2864 /* UIFont+Extension */,
+				C7169EC41E1EEE350007CD0A /* UIImage+Extension */,
+				B6EC44431E0202740061E5A9 /* UITextField+Extension */,
+				B64AFA741E08BE0D00A590D4 /* UIView+Fold */,
+				C7169EC81E1EF25D0007CD0A /* UIView+YALConstraints */,
+				C7169EC01E1DCBC70007CD0A /* UIViewController+MMDrawerController */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		B6EC44381E01F01C0061E5A9 /* iBPMOperationQueueUtils */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC44351E01F0070061E5A9 /* iBPMOperationQueueUtils.h */,
+				B6EC44361E01F0070061E5A9 /* iBPMOperationQueueUtils.m */,
+			);
+			name = iBPMOperationQueueUtils;
+			sourceTree = "<group>";
+		};
+		B6EC443C1E01F7610061E5A9 /* iBPMDomainModel */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC44391E01F75B0061E5A9 /* iBPMDomainModel.h */,
+				B6EC443A1E01F75B0061E5A9 /* iBPMDomainModel.m */,
+			);
+			name = iBPMDomainModel;
+			sourceTree = "<group>";
+		};
+		B6EC44431E0202740061E5A9 /* UITextField+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC44401E02026D0061E5A9 /* UITextField+Extension.h */,
+				B6EC44411E02026D0061E5A9 /* UITextField+Extension.m */,
+			);
+			name = "UITextField+Extension";
+			sourceTree = "<group>";
+		};
+		B6EC44471E0213100061E5A9 /* iBPMMainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C7169EAD1E1DCA750007CD0A /* iBPMMainViewController.h */,
+				C7169EAE1E1DCA750007CD0A /* iBPMMainViewController.m */,
+				C7169EAF1E1DCA750007CD0A /* iBPMMainViewController.xib */,
+			);
+			name = iBPMMainViewController;
+			sourceTree = "<group>";
+		};
+		B6EC44501E02168F0061E5A9 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC444D1E0216880061E5A9 /* MBProgressHUD.h */,
+				B6EC444E1E0216880061E5A9 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		B6EC44511E0216930061E5A9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C77EF1DC1E32E22100B3772A /* iBPMHistoryCollectionViewCell */,
+				C77B449B1E09F7A400821598 /* ContextMenuCell */,
+				C77B449F1E0A079600821598 /* iBPMDrawerBarButtonItem */,
+				B64AFA7A1E08CA2B00A590D4 /* iBPMAppDetailTableViewCell */,
+				B6DC0D7B1E03800700627007 /* iBPMBackButton */,
+				B6DC0D7F1E03810100627007 /* iBPMBarBackButtonItem */,
+				B6DC0D771E037DB900627007 /* iBPMCustomCheckmark */,
+				B6DC0D731E037C1300627007 /* iBPMDisclosureIndicator */,
+				B6E9DBC31E089A6800DD3CA0 /* iBPMDomainTableViewCell */,
+				B6102F011E05005300B1BA7A /* iBPMMainTableViewCell */,
+				B6DC0D541E03122B00627007 /* iBPMSideDrawerSectionHeaderView */,
+				B6DC0D581E03123700627007 /* iBPMSideDrawerTableViewCell */,
+				B6DC0D5C1E03125A00627007 /* iBPMTableViewCell */,
+				B6EC44501E02168F0061E5A9 /* MBProgressHUD */,
+				C77B44951E09EC8600821598 /* YALContextMenu */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B6EC44841E0216FE0061E5A9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C7169EA01E0C96AE0007CD0A /* iBPMConnection */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		B6EC44921E021B360061E5A9 /* iBPMSidebarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC448D1E021B300061E5A9 /* iBPMSidebarViewController.h */,
+				B6EC448E1E021B300061E5A9 /* iBPMSidebarViewController.m */,
+				B6EC448F1E021B300061E5A9 /* iBPMSidebarViewController.xib */,
+			);
+			name = iBPMSidebarViewController;
+			sourceTree = "<group>";
+		};
+		B6EC44A21E02242E0061E5A9 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				C77EF1B91E25B93B00B3772A /* MMDrawerVisualState */,
+				B6EC44971E0224220061E5A9 /* MMDrawerController.h */,
+				B6EC44981E0224220061E5A9 /* MMDrawerController.m */,
+				B6EC44991E0224220061E5A9 /* MMDrawerController+Subclass.h */,
+			);
+			name = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		C7169E9F1E0C95B40007CD0A /* iBPMAuthenticationManager */ = {
+			isa = PBXGroup;
+			children = (
+				C7169E9C1E0C95AE0007CD0A /* iBPMAuthenticationManager.h */,
+				C7169E9D1E0C95AE0007CD0A /* iBPMAuthenticationManager.m */,
+			);
+			name = iBPMAuthenticationManager;
+			sourceTree = "<group>";
+		};
+		C7169EA01E0C96AE0007CD0A /* iBPMConnection */ = {
+			isa = PBXGroup;
+			children = (
+				C7A0057B1E0C924F001AF641 /* iBPMConnection.h */,
+				C7A0057C1E0C924F001AF641 /* iBPMConnection.m */,
+			);
+			name = iBPMConnection;
+			sourceTree = "<group>";
+		};
+		C7169EA61E1DA4410007CD0A /* iBPMStatusViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C7169EA11E1DA43D0007CD0A /* iBPMStatusViewController.h */,
+				C7169EA21E1DA43D0007CD0A /* iBPMStatusViewController.m */,
+				C7169EA31E1DA43D0007CD0A /* iBPMStatusViewController.xib */,
+			);
+			name = iBPMStatusViewController;
+			sourceTree = "<group>";
+		};
+		C7169EBC1E1DCB000007CD0A /* iBPMMonitorViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C7169EB71E1DCAFB0007CD0A /* iBPMMonitorViewController.h */,
+				C7169EB81E1DCAFB0007CD0A /* iBPMMonitorViewController.m */,
+				C7169EB91E1DCAFB0007CD0A /* iBPMMonitorViewController.xib */,
+			);
+			name = iBPMMonitorViewController;
+			sourceTree = "<group>";
+		};
+		C7169EC01E1DCBC70007CD0A /* UIViewController+MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				C7169EBD1E1DCBC10007CD0A /* UIViewController+MMDrawerController.h */,
+				C7169EBE1E1DCBC10007CD0A /* UIViewController+MMDrawerController.m */,
+			);
+			name = "UIViewController+MMDrawerController";
+			sourceTree = "<group>";
+		};
+		C7169EC41E1EEE350007CD0A /* UIImage+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C7169EC11E1EEDBA0007CD0A /* UIImage+Extension.h */,
+				C7169EC21E1EEDFA0007CD0A /* UIImage+Extension.m */,
+			);
+			name = "UIImage+Extension";
+			sourceTree = "<group>";
+		};
+		C7169EC81E1EF25D0007CD0A /* UIView+YALConstraints */ = {
+			isa = PBXGroup;
+			children = (
+				C7169EC51E1EF2580007CD0A /* UIView+YALConstraints.h */,
+				C7169EC61E1EF2580007CD0A /* UIView+YALConstraints.m */,
+			);
+			name = "UIView+YALConstraints";
+			sourceTree = "<group>";
+		};
+		C77B44951E09EC8600821598 /* YALContextMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C77B44901E09EC8100821598 /* YALContextMenuCell.h */,
+				C77B44911E09EC8100821598 /* YALContextMenuTableView.h */,
+				C77B44921E09EC8100821598 /* YALContextMenuTableView.m */,
+			);
+			name = YALContextMenu;
+			sourceTree = "<group>";
+		};
+		C77B449B1E09F7A400821598 /* ContextMenuCell */ = {
+			isa = PBXGroup;
+			children = (
+				C77B44961E09F79D00821598 /* ContextMenuCell.h */,
+				C77B44971E09F79D00821598 /* ContextMenuCell.m */,
+				C77B44981E09F79D00821598 /* ContextMenuCell.xib */,
+			);
+			name = ContextMenuCell;
+			sourceTree = "<group>";
+		};
+		C77B449F1E0A079600821598 /* iBPMDrawerBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				C77B449C1E0A079300821598 /* iBPMDrawerBarButtonItem.h */,
+				C77B449D1E0A079300821598 /* iBPMDrawerBarButtonItem.m */,
+			);
+			name = iBPMDrawerBarButtonItem;
+			sourceTree = "<group>";
+		};
+		C77B44A91E0B347000821598 /* iBPMSettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C77B44A41E0B346800821598 /* iBPMSettingsViewController.h */,
+				C77B44A51E0B346800821598 /* iBPMSettingsViewController.m */,
+				C77B44A61E0B346800821598 /* iBPMSettingsViewController.xib */,
+			);
+			name = iBPMSettingsViewController;
+			sourceTree = "<group>";
+		};
+		C77EF1B81E25909500B3772A /* iBPMDetailedStatusViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C77EF1B31E25908F00B3772A /* iBPMDetailedStatusViewController.h */,
+				C77EF1B41E25908F00B3772A /* iBPMDetailedStatusViewController.m */,
+				C77EF1B51E25908F00B3772A /* iBPMDetailedStatusViewController.xib */,
+			);
+			name = iBPMDetailedStatusViewController;
+			sourceTree = "<group>";
+		};
+		C77EF1B91E25B93B00B3772A /* MMDrawerVisualState */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC449A1E0224220061E5A9 /* MMDrawerVisualState.h */,
+				B6EC449B1E0224220061E5A9 /* MMDrawerVisualState.m */,
+			);
+			name = MMDrawerVisualState;
+			sourceTree = "<group>";
+		};
+		C77EF1BA1E2EEB0700B3772A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C77EF1BF1E2EEB1600B3772A /* NotificationCenter.framework */,
+				C77EF1BD1E2EEB0E00B3772A /* UserNotifications.framework */,
+				C77EF1BB1E2EEB0700B3772A /* UserNotificationsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C77EF1C61E2EEE3C00B3772A /* iBPMNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				9B1317E61E301B250080691E /* iBPMNotifications.entitlements */,
+				C77EF1C71E2EEE3C00B3772A /* NotificationService.h */,
+				C77EF1C81E2EEE3C00B3772A /* NotificationService.m */,
+				C77EF1CA1E2EEE3C00B3772A /* Info.plist */,
+			);
+			path = iBPMNotifications;
+			sourceTree = "<group>";
+		};
+		C77EF1D41E32D46E00B3772A /* iBPMHistoryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C77EF1D51E32D54600B3772A /* iBPMHistoryViewController.h */,
+				C77EF1D61E32D54600B3772A /* iBPMHistoryViewController.m */,
+				C77EF1D71E32D54600B3772A /* iBPMHistoryViewController.xib */,
+			);
+			name = iBPMHistoryViewController;
+			sourceTree = "<group>";
+		};
+		C77EF1DC1E32E22100B3772A /* iBPMHistoryCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C77EF1DD1E32E28B00B3772A /* HistoryCollectionViewCell.h */,
+				C77EF1DE1E32E28B00B3772A /* HistoryCollectionViewCell.m */,
+				C77EF1DF1E32E28B00B3772A /* HistoryCollectionViewCell.xib */,
+			);
+			name = iBPMHistoryCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		C7A0057A1E0B5E81001AF641 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC43E01E01B5B40061E5A9 /* Main.storyboard */,
+				B6EC43E51E01B5B40061E5A9 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6EC43D31E01B5B30061E5A9 /* iBPMMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6EC43EB1E01B5B40061E5A9 /* Build configuration list for PBXNativeTarget "iBPMMonitor" */;
+			buildPhases = (
+				B6EC43D01E01B5B30061E5A9 /* Sources */,
+				B6EC43D11E01B5B30061E5A9 /* Frameworks */,
+				B6EC43D21E01B5B30061E5A9 /* Resources */,
+				C77EF1D11E2EEE3C00B3772A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C77EF1CC1E2EEE3C00B3772A /* PBXTargetDependency */,
+			);
+			name = iBPMMonitor;
+			productName = iBPMMonitor;
+			productReference = B6EC43D41E01B5B40061E5A9 /* iBPMMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C77EF1C41E2EEE3C00B3772A /* iBPMNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C77EF1CE1E2EEE3C00B3772A /* Build configuration list for PBXNativeTarget "iBPMNotifications" */;
+			buildPhases = (
+				C77EF1C11E2EEE3C00B3772A /* Sources */,
+				C77EF1C21E2EEE3C00B3772A /* Frameworks */,
+				C77EF1C31E2EEE3C00B3772A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iBPMNotifications;
+			productName = iBPMNotifications;
+			productReference = C77EF1C51E2EEE3C00B3772A /* iBPMNotifications.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6EC43CC1E01B5B30061E5A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Qi Zhan";
+				TargetAttributes = {
+					B6EC43D31E01B5B30061E5A9 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = BW2JUPK3JZ;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					C77EF1C41E2EEE3C00B3772A = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = BW2JUPK3JZ;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B6EC43CF1E01B5B30061E5A9 /* Build configuration list for PBXProject "iBPMMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6EC43CB1E01B5B30061E5A9;
+			productRefGroup = B6EC43D51E01B5B40061E5A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6EC43D31E01B5B30061E5A9 /* iBPMMonitor */,
+				C77EF1C41E2EEE3C00B3772A /* iBPMNotifications */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6EC43D21E01B5B30061E5A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EC43E71E01B5B40061E5A9 /* LaunchScreen.storyboard in Resources */,
+				C7169EA51E1DA43D0007CD0A /* iBPMStatusViewController.xib in Resources */,
+				B6EC43E41E01B5B40061E5A9 /* Assets.xcassets in Resources */,
+				C77EF1E11E32E28B00B3772A /* HistoryCollectionViewCell.xib in Resources */,
+				C7169EBB1E1DCAFB0007CD0A /* iBPMMonitorViewController.xib in Resources */,
+				B64AFA791E08CA2500A590D4 /* iBPMAppDetailTableViewCell.xib in Resources */,
+				B6102F001E05004C00B1BA7A /* iBPMMainTableViewCell.xib in Resources */,
+				C77EF1E31E36C44E00B3772A /* HistoryFilters.plist in Resources */,
+				C77B44A31E0B2A2E00821598 /* gssc_rma_DRD-1045698.json in Resources */,
+				C77EF1D91E32D54600B3772A /* iBPMHistoryViewController.xib in Resources */,
+				C77EF1B71E25908F00B3772A /* iBPMDetailedStatusViewController.xib in Resources */,
+				B6EC43E21E01B5B40061E5A9 /* Main.storyboard in Resources */,
+				B6DC0D6E1E03765D00627007 /* iBPMDomainViewController.xib in Resources */,
+				C7169EB11E1DCA750007CD0A /* iBPMMainViewController.xib in Resources */,
+				C77B449A1E09F79D00821598 /* ContextMenuCell.xib in Resources */,
+				B6EC44911E021B300061E5A9 /* iBPMSidebarViewController.xib in Resources */,
+				B6EC44191E01CC200061E5A9 /* status.json in Resources */,
+				C77B44A81E0B346800821598 /* iBPMSettingsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77EF1C31E2EEE3C00B3772A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6EC43D01E01B5B30061E5A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6102EFA1E04D03500B1BA7A /* NSString+Extensions.m in Sources */,
+				B6B655891E07D80100FC2864 /* iBPMNavigationController.m in Sources */,
+				B6EC44901E021B300061E5A9 /* iBPMSidebarViewController.m in Sources */,
+				C77EF1E01E32E28B00B3772A /* HistoryCollectionViewCell.m in Sources */,
+				C7169EC71E1EF2580007CD0A /* UIView+YALConstraints.m in Sources */,
+				B6102EF61E04C3C700B1BA7A /* iBPMStateManager.m in Sources */,
+				B6DC0D641E036EE400627007 /* MBProgressHUD+Extension.m in Sources */,
+				B6EC44211E01CE8B0061E5A9 /* iBPMDataParserUtils.m in Sources */,
+				B6102EF21E04AAA800B1BA7A /* iBPMDataProviderManager.m in Sources */,
+				C7A0057D1E0C924F001AF641 /* iBPMConnection.m in Sources */,
+				B6EC44121E01C3D40061E5A9 /* iBPMLocalDataProvider.m in Sources */,
+				B6EC44161E01C4170061E5A9 /* iBPMServerDataProvider.m in Sources */,
+				B6EC44A01E0224220061E5A9 /* MMDrawerVisualState.m in Sources */,
+				B6EC44421E02026D0061E5A9 /* UITextField+Extension.m in Sources */,
+				C7169E9E1E0C95AE0007CD0A /* iBPMAuthenticationManager.m in Sources */,
+				C7169EBF1E1DCBC10007CD0A /* UIViewController+MMDrawerController.m in Sources */,
+				B6EC44371E01F0070061E5A9 /* iBPMOperationQueueUtils.m in Sources */,
+				B6EC43D91E01B5B40061E5A9 /* main.m in Sources */,
+				B64AFA781E08CA2500A590D4 /* iBPMAppDetailTableViewCell.m in Sources */,
+				B6DC0D761E037D0D00627007 /* iBPMCustomCheckmark.m in Sources */,
+				B6DC0D681E0371A900627007 /* UIAlertController+Extension.m in Sources */,
+				C7169EA41E1DA43D0007CD0A /* iBPMStatusViewController.m in Sources */,
+				B6DC0D7A1E03800100627007 /* iBPMBackButton.m in Sources */,
+				B6DC0D531E03121600627007 /* iBPMSideDrawerSectionHeaderView.m in Sources */,
+				B6AE056E1E09B3CE0074D22A /* iBPMDataModel.m in Sources */,
+				B6EC44941E021BB10061E5A9 /* iBPMLoginViewController.m in Sources */,
+				C77B44941E09EC8100821598 /* YALContextMenuTableView.m in Sources */,
+				B6B655851E062D4E00FC2864 /* UIFont+Extension.swift in Sources */,
+				B6E9DBC21E089A6000DD3CA0 /* iBPMDomainTableViewCell.m in Sources */,
+				C7169EBA1E1DCAFB0007CD0A /* iBPMMonitorViewController.m in Sources */,
+				B6DC0D7E1E0380F300627007 /* iBPMBarBackButtonItem.m in Sources */,
+				B64AFA731E08BE0800A590D4 /* UIView+Fold.m in Sources */,
+				B6EC44A51E023FEE0061E5A9 /* UIColor+Extensions.m in Sources */,
+				B6102EED1E04A86000B1BA7A /* iBPMDrawerVisualStateManager.m in Sources */,
+				C7169EB01E1DCA750007CD0A /* iBPMMainViewController.m in Sources */,
+				B6EC44341E01ED320061E5A9 /* iBPMDataProvider+PostProcessor.m in Sources */,
+				C77B449E1E0A079300821598 /* iBPMDrawerBarButtonItem.m in Sources */,
+				C7169EC31E1EEDFA0007CD0A /* UIImage+Extension.m in Sources */,
+				B6DC0D6D1E03765D00627007 /* iBPMDomainViewController.m in Sources */,
+				B6AE05721E09B3FF0074D22A /* iBPMAppModel.m in Sources */,
+				C77EF1D81E32D54600B3772A /* iBPMHistoryViewController.m in Sources */,
+				B6EC44071E01C21B0061E5A9 /* iBPMDataProvider.m in Sources */,
+				B6102EFF1E05004C00B1BA7A /* iBPMMainTableViewCell.m in Sources */,
+				B6EC443B1E01F75B0061E5A9 /* iBPMDomainModel.m in Sources */,
+				B6EC449F1E0224220061E5A9 /* MMDrawerController.m in Sources */,
+				B6DC0D5B1E03125400627007 /* iBPMTableViewCell.m in Sources */,
+				C77EF1B61E25908F00B3772A /* iBPMDetailedStatusViewController.m in Sources */,
+				B6DC0D5F1E03162B00627007 /* iBPMColorUtils.m in Sources */,
+				B6EC43F81E01BAB00061E5A9 /* AppDelegate.m in Sources */,
+				C77B44A71E0B346800821598 /* iBPMSettingsViewController.m in Sources */,
+				B6DC0D571E03123400627007 /* iBPMSideDrawerTableViewCell.m in Sources */,
+				B6EC444F1E0216880061E5A9 /* MBProgressHUD.m in Sources */,
+				B6DC0D721E037C0D00627007 /* iBPMDisclosureIndicator.m in Sources */,
+				C77B44991E09F79D00821598 /* ContextMenuCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77EF1C11E2EEE3C00B3772A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77EF1C91E2EEE3C00B3772A /* NotificationService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C77EF1CC1E2EEE3C00B3772A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C77EF1C41E2EEE3C00B3772A /* iBPMNotifications */;
+			targetProxy = C77EF1CB1E2EEE3C00B3772A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6EC43E01E01B5B40061E5A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6EC43E11E01B5B40061E5A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6EC43E51E01B5B40061E5A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6EC43E61E01B5B40061E5A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6EC43E91E01B5B40061E5A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6EC43EA1E01B5B40061E5A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6EC43EC1E01B5B40061E5A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = iBPMMonitor/iBPMMonitor.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = BW2JUPK3JZ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iBPMMonitor/src/Others/iBPMPrefixHeader.pch";
+				INFOPLIST_FILE = iBPMMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kumar.iBPMApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iBPMMonitor/iBPMMonitor-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B6EC43ED1E01B5B40061E5A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = iBPMMonitor/iBPMMonitor.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = BW2JUPK3JZ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iBPMMonitor/src/Others/iBPMPrefixHeader.pch";
+				INFOPLIST_FILE = iBPMMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kumar.iBPMApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iBPMMonitor/iBPMMonitor-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C77EF1CF1E2EEE3C00B3772A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = iBPMNotifications/iBPMNotifications.entitlements;
+				DEVELOPMENT_TEAM = BW2JUPK3JZ;
+				INFOPLIST_FILE = iBPMNotifications/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kumar.iBPMApp.iBPMNotifications;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C77EF1D01E2EEE3C00B3772A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = iBPMNotifications/iBPMNotifications.entitlements;
+				DEVELOPMENT_TEAM = BW2JUPK3JZ;
+				INFOPLIST_FILE = iBPMNotifications/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kumar.iBPMApp.iBPMNotifications;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6EC43CF1E01B5B30061E5A9 /* Build configuration list for PBXProject "iBPMMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EC43E91E01B5B40061E5A9 /* Debug */,
+				B6EC43EA1E01B5B40061E5A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6EC43EB1E01B5B40061E5A9 /* Build configuration list for PBXNativeTarget "iBPMMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EC43EC1E01B5B40061E5A9 /* Debug */,
+				B6EC43ED1E01B5B40061E5A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C77EF1CE1E2EEE3C00B3772A /* Build configuration list for PBXNativeTarget "iBPMNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77EF1CF1E2EEE3C00B3772A /* Debug */,
+				C77EF1D01E2EEE3C00B3772A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6EC43CC1E01B5B30061E5A9 /* Project object */;
+}

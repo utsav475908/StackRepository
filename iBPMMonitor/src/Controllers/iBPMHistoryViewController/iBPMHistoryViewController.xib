@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="iBPMHistoryViewController">
+            <connections>
+                <outlet property="_detailsTextView" destination="uRG-0W-IXi" id="hos-xG-Zrc"/>
+                <outlet property="_myCollectionView" destination="5es-Lg-53A" id="Fn8-vt-TXN"/>
+                <outlet property="_mySubView" destination="5tI-4w-JfS" id="sPE-rE-ZfN"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" keyboardDismissMode="onDrag" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="5es-Lg-53A">
+                    <rect key="frame" x="16" y="57" width="343" height="590"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Tjv-jb-pHj">
+                        <size key="itemSize" width="300" height="180"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="i5M-Pr-FkT" id="cZN-BL-2a5"/>
+                        <outlet property="delegate" destination="i5M-Pr-FkT" id="pbJ-K1-wBZ"/>
+                    </connections>
+                </collectionView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5tI-4w-JfS">
+                    <rect key="frame" x="31" y="85" width="307" height="497"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uRG-0W-IXi">
+                            <rect key="frame" x="-1" y="34" width="308" height="444"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.6565814499" green="0.87241680560000001" blue="0.96871120359999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n48-1v-RHq">
+                            <rect key="frame" x="267" y="0.0" width="32" height="27"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <state key="normal" title="Close"/>
+                            <connections>
+                                <action selector="closeBtnAction:" destination="-1" eventType="touchUpInside" id="8Mz-8Y-GAI"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.65658144993303125" green="0.87241680561418056" blue="0.9687112035528983" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="n48-1v-RHq" firstAttribute="top" secondItem="5tI-4w-JfS" secondAttribute="top" id="0KK-q5-Lsc"/>
+                        <constraint firstAttribute="trailing" secondItem="n48-1v-RHq" secondAttribute="trailing" constant="8" id="gdc-Ak-8Kl"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="5tI-4w-JfS" secondAttribute="trailing" constant="37" id="1n0-sw-WXB"/>
+                <constraint firstItem="5tI-4w-JfS" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="85" id="AjS-du-kbY"/>
+                <constraint firstItem="5tI-4w-JfS" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="-3" id="OKm-ug-WB1"/>
+                <constraint firstAttribute="bottom" secondItem="5tI-4w-JfS" secondAttribute="bottom" constant="85" id="c3d-JO-Jck"/>
+                <constraint firstItem="5tI-4w-JfS" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="ctg-B3-dcG"/>
+                <constraint firstItem="5tI-4w-JfS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="31" id="uL2-BW-7tr"/>
+            </constraints>
+            <point key="canvasLocation" x="-621.5" y="-328.5"/>
+        </view>
+    </objects>
+</document>

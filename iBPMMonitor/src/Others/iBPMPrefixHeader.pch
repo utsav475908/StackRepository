@@ -1,0 +1,30 @@
+// *************************************************************************************************
+// # MARK: Import Conditionals
+
+
+#ifndef iBPMPrefixHeader_h
+#define iBPMPrefixHeader_h
+
+
+// *************************************************************************************************
+// # MARK: Standard Global Imports
+
+
+#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
+#import <UIKit/UIKit.h>
+#import <iBPMMonitor-Swift.h>
+
+
+// *************************************************************************************************
+// # MARK: Imports
+
+
+#import "iBPMColorUtils.h"
+#import "iBPMStateManager.h"
+#import "MBProgressHUD.h"
+#import "MBProgressHUD+Extension.h"
+#import "UIColor+Extensions.h"
+
+
+#endif

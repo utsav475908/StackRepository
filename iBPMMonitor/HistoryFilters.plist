@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cpe</key>
+	<dict>
+		<key>pyTaskName</key>
+		<string>Task Name</string>
+		<key>pyPerformer</key>
+		<string>Performed By</string>
+		<key>pyFlowName</key>
+		<string>Flow Name</string>
+		<key>pxTimeCreated</key>
+		<string>Time Created</string>
+	</dict>
+	<key>ea</key>
+	<dict>
+		<key>pyFlowKey</key>
+		<string>Flow Key</string>
+		<key>pyAssignedTo</key>
+		<string>Assigned To</string>
+	</dict>
+</dict>
+</plist>

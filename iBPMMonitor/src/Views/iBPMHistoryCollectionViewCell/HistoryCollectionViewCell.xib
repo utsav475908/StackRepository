@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="gTV-IL-0wX" customClass="HistoryCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="230" height="186"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="230" height="186"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iaz-kG-HHg">
+                        <rect key="frame" x="8" y="18" width="214" height="17"/>
+                        <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="seh-Hh-UXj">
+                        <rect key="frame" x="8" y="46" width="91" height="17"/>
+                        <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="59E-ey-wEh">
+                        <rect key="frame" x="8" y="79" width="91" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="91" id="rBj-2o-5gR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MDy-gX-3mX">
+                        <rect key="frame" x="8" y="113" width="91" height="17"/>
+                        <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Zw-iZ-wme">
+                        <rect key="frame" x="8" y="146" width="91" height="17"/>
+                        <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbd-Og-u18">
+                        <rect key="frame" x="107" y="47" width="115" height="17"/>
+                        <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3hH-Xz-ebD">
+                        <rect key="frame" x="107" y="78" width="115" height="17"/>
+                        <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gpE-rC-r0v">
+                        <rect key="frame" x="107" y="112" width="115" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Gw-C0-Cxq">
+                        <rect key="frame" x="107" y="146" width="115" height="17"/>
+                        <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="paV-Lu-CLn">
+                        <rect key="frame" x="0.0" y="38" width="230" height="1"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="59E-ey-wEh" firstAttribute="leading" secondItem="6Zw-iZ-wme" secondAttribute="leading" id="0q1-eB-R0n"/>
+                <constraint firstItem="59E-ey-wEh" firstAttribute="leading" secondItem="MDy-gX-3mX" secondAttribute="leading" id="1i8-Ew-iCn"/>
+                <constraint firstItem="nbd-Og-u18" firstAttribute="leading" secondItem="seh-Hh-UXj" secondAttribute="trailing" constant="8" id="1pd-fN-MuO"/>
+                <constraint firstItem="Iaz-kG-HHg" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="1yJ-GO-GEo"/>
+                <constraint firstItem="seh-Hh-UXj" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="3zH-4L-50j"/>
+                <constraint firstAttribute="trailing" secondItem="7Gw-C0-Cxq" secondAttribute="trailing" constant="8" id="6P1-nK-iCZ"/>
+                <constraint firstItem="59E-ey-wEh" firstAttribute="top" secondItem="seh-Hh-UXj" secondAttribute="bottom" constant="16" id="Asp-SF-d4l"/>
+                <constraint firstItem="59E-ey-wEh" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="79" id="BMI-dw-tpf"/>
+                <constraint firstItem="59E-ey-wEh" firstAttribute="leading" secondItem="Iaz-kG-HHg" secondAttribute="leading" id="Ijc-VM-HU2"/>
+                <constraint firstItem="paV-Lu-CLn" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="L2P-hQ-Pj8"/>
+                <constraint firstAttribute="trailing" secondItem="nbd-Og-u18" secondAttribute="trailing" constant="8" id="MST-Om-XwP"/>
+                <constraint firstItem="3hH-Xz-ebD" firstAttribute="leading" secondItem="59E-ey-wEh" secondAttribute="trailing" constant="8" id="NAr-3g-ZWy"/>
+                <constraint firstItem="7Gw-C0-Cxq" firstAttribute="leading" secondItem="6Zw-iZ-wme" secondAttribute="trailing" constant="8" symbolic="YES" id="PaZ-m9-Ekl"/>
+                <constraint firstItem="59E-ey-wEh" firstAttribute="trailing" secondItem="6Zw-iZ-wme" secondAttribute="trailing" id="Pla-Nb-DU2"/>
+                <constraint firstItem="3hH-Xz-ebD" firstAttribute="leading" secondItem="59E-ey-wEh" secondAttribute="trailing" constant="8" symbolic="YES" id="UEs-iS-fB3"/>
+                <constraint firstItem="nbd-Og-u18" firstAttribute="leading" secondItem="seh-Hh-UXj" secondAttribute="trailing" constant="8" id="VTp-2A-Tuf"/>
+                <constraint firstItem="seh-Hh-UXj" firstAttribute="top" secondItem="paV-Lu-CLn" secondAttribute="bottom" constant="7" id="W8k-cv-rt7"/>
+                <constraint firstItem="59E-ey-wEh" firstAttribute="trailing" secondItem="MDy-gX-3mX" secondAttribute="trailing" id="WIK-Y5-zOC"/>
+                <constraint firstItem="paV-Lu-CLn" firstAttribute="top" secondItem="Iaz-kG-HHg" secondAttribute="bottom" constant="3" id="WnL-25-2Tq"/>
+                <constraint firstItem="7Gw-C0-Cxq" firstAttribute="leading" secondItem="6Zw-iZ-wme" secondAttribute="trailing" constant="8" id="bEW-tx-UGy"/>
+                <constraint firstItem="3hH-Xz-ebD" firstAttribute="top" secondItem="nbd-Og-u18" secondAttribute="bottom" constant="14" id="d3U-BW-dt3"/>
+                <constraint firstItem="59E-ey-wEh" firstAttribute="leading" secondItem="seh-Hh-UXj" secondAttribute="leading" id="eAu-pp-EUe"/>
+                <constraint firstAttribute="trailing" secondItem="3hH-Xz-ebD" secondAttribute="trailing" constant="8" id="fiM-80-uTx"/>
+                <constraint firstAttribute="trailing" secondItem="paV-Lu-CLn" secondAttribute="trailing" id="gUX-Q0-fmY"/>
+                <constraint firstItem="MDy-gX-3mX" firstAttribute="top" secondItem="59E-ey-wEh" secondAttribute="bottom" constant="17" id="hVT-Ig-i6e"/>
+                <constraint firstItem="6Zw-iZ-wme" firstAttribute="baseline" secondItem="7Gw-C0-Cxq" secondAttribute="baseline" id="ktG-Wg-COo"/>
+                <constraint firstItem="59E-ey-wEh" firstAttribute="trailing" secondItem="seh-Hh-UXj" secondAttribute="trailing" id="myj-Oc-sOH"/>
+                <constraint firstItem="seh-Hh-UXj" firstAttribute="top" secondItem="Iaz-kG-HHg" secondAttribute="bottom" constant="11" id="s7Q-mR-9Ci"/>
+                <constraint firstItem="6Zw-iZ-wme" firstAttribute="top" secondItem="MDy-gX-3mX" secondAttribute="bottom" constant="16" id="svy-c1-U4h"/>
+                <constraint firstItem="nbd-Og-u18" firstAttribute="top" secondItem="Iaz-kG-HHg" secondAttribute="bottom" constant="12" id="zOQ-60-93h"/>
+            </constraints>
+            <size key="customSize" width="230" height="186"/>
+            <connections>
+                <outlet property="Attribute4" destination="6Zw-iZ-wme" id="lpY-hg-Xhz"/>
+                <outlet property="attr1Value" destination="nbd-Og-u18" id="SA0-Oc-xXO"/>
+                <outlet property="attr2Value" destination="3hH-Xz-ebD" id="oFB-jU-4IM"/>
+                <outlet property="attr3Value" destination="gpE-rC-r0v" id="gqR-eH-dby"/>
+                <outlet property="attr4Value" destination="7Gw-C0-Cxq" id="1zE-Iu-tIR"/>
+                <outlet property="attribute1" destination="seh-Hh-UXj" id="MUE-Do-efc"/>
+                <outlet property="attribute2" destination="59E-ey-wEh" id="Rtg-iT-iTR"/>
+                <outlet property="attribute3" destination="MDy-gX-3mX" id="kyt-ep-GsH"/>
+                <outlet property="name" destination="Iaz-kG-HHg" id="QQC-Xo-zhy"/>
+            </connections>
+            <point key="canvasLocation" x="-424" y="-201"/>
+        </collectionViewCell>
+    </objects>
+</document>
