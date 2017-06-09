@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>AvailableDGI</string>
+		<string>CRITICAL_SHORTAGE_QTY</string>
+		<string>DEPOT_REMKTG</string>
+	</array>
+	<array>
+		<string>pxTickets</string>
+		<string>BILL_TO_CUSTOMER_NAME</string>
+		<string>cancelledReason</string>
+		<string>cancelledStatus</string>
+		<string>pid</string>
+	</array>
+	<array>
+		<string>pID</string>
+		<string>CRITICAL_SHORTAGE_QTY</string>
+		<string>CTS_INV_REMARKETING</string>
+		<string>DEPOT_REMKTG</string>
+		<string>PiD</string>
+	</array>
+	<array>
+		<string>pID</string>
+		<string>pxTickets</string>
+		<string>CRITICAL_SHORTAGE_QTY</string>
+	</array>
+</array>
+</plist>

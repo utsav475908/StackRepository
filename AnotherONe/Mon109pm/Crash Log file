@@ -1,0 +1,59 @@
+2017-05-30 10:52:39.451 iBPMMonitor[50230:9837813] *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: '-[__NSCFString count]: unrecognized selector sent to instance 0x60800005b810'
+*** First throw call stack:
+(
+0   CoreFoundation                      0x00000001093e2d4b __exceptionPreprocess + 171
+1   libobjc.A.dylib                     0x0000000108e4421e objc_exception_throw + 48
+2   CoreFoundation                      0x0000000109452f04 -[NSObject(NSObject) doesNotRecognizeSelector:] + 132
+3   CoreFoundation                      0x0000000109368005 ___forwarding___ + 1013
+4   CoreFoundation                      0x0000000109367b88 _CF_forwarding_prep_0 + 120
+5   iBPMMonitor                         0x00000001086d5bbb -[iBPMDetailedStatusViewController tableView:numberOfRowsInSection:] + 171
+6   UIKit                               0x000000010a37fc52 -[UITableView _numberOfRowsInSection:] + 57
+7   UIKit                               0x000000010a5b9d25 -[UISectionRowData refreshWithSection:tableView:tableViewRowData:] + 2426
+8   UIKit                               0x000000010a5bfd99 -[UITableViewRowData rectForFooterInSection:heightCanBeGuessed:] + 501
+9   UIKit                               0x000000010a5bfef7 -[UITableViewRowData heightForTable] + 56
+10  UIKit                               0x000000010a341d76 -[UITableView _updateContentSize] + 381
+11  UIKit                               0x000000010a36a23e -[UITableView _rebuildGeometry] + 40
+12  UIKit                               0x000000010a3681e8 -[UITableView didMoveToWindow] + 146
+13  UIKit                               0x000000010a2c7256 -[UIView(Internal) _didMoveFromWindow:toWindow:] + 1799
+14  UIKit                               0x000000010a2decae -[UIScrollView _didMoveFromWindow:toWindow:] + 85
+15  UIKit                               0x000000010a2c6e82 -[UIView(Internal) _didMoveFromWindow:toWindow:] + 819
+16  UIKit                               0x000000010a2b9fea __45-[UIView(Hierarchy) _postMovedFromSuperview:]_block_invoke + 151
+17  Foundation                          0x000000010895f3b0 -[NSISEngine withBehaviors:performModifications:] + 155
+18  UIKit                               0x000000010a2b9ef3 -[UIView(Hierarchy) _postMovedFromSuperview:] + 884
+19  UIKit                               0x000000010a2c9e56 -[UIView(Internal) _addSubview:positioned:relativeTo:] + 1982
+20  UIKit                               0x000000010a2b80d7 -[UIView(Hierarchy) addSubview:] + 838
+21  UIKit                               0x000000010a1f4f3d -[_UIParallaxDimmingView didMoveToWindow] + 180
+22  UIKit                               0x000000010a2c7256 -[UIView(Internal) _didMoveFromWindow:toWindow:] + 1799
+23  UIKit                               0x000000010a2c6e82 -[UIView(Internal) _didMoveFromWindow:toWindow:] + 819
+24  UIKit                               0x000000010a2b9fea __45-[UIView(Hierarchy) _postMovedFromSuperview:]_block_invoke + 151
+25  Foundation                          0x000000010895f3b0 -[NSISEngine withBehaviors:performModifications:] + 155
+26  UIKit                               0x000000010a2b9ef3 -[UIView(Hierarchy) _postMovedFromSuperview:] + 884
+27  UIKit                               0x000000010a2c9e56 -[UIView(Internal) _addSubview:positioned:relativeTo:] + 1982
+28  UIKit                               0x000000010a2b80d7 -[UIView(Hierarchy) addSubview:] + 838
+29  UIKit                               0x000000010a1efbb5 __53-[_UINavigationParallaxTransition animateTransition:]_block_invoke_2 + 2604
+30  UIKit                               0x000000010a2c2239 +[UIView(Animation) performWithoutAnimation:] + 90
+31  UIKit                               0x000000010a1ef127 __53-[_UINavigationParallaxTransition animateTransition:]_block_invoke + 270
+32  UIKit                               0x000000010a2c834f +[UIView(Internal) _performBlockDelayingTriggeringResponderEvents:] + 188
+33  UIKit                               0x000000010a1eeb14 -[_UINavigationParallaxTransition animateTransition:] + 1434
+34  UIKit                               0x000000010a3dce13 -[UINavigationController _startCustomTransition:] + 4426
+35  UIKit                               0x000000010a3ece48 -[UINavigationController _startDeferredTransitionIfNeeded:] + 697
+36  UIKit                               0x000000010a3edfdb -[UINavigationController __viewWillLayoutSubviews] + 58
+37  UIKit                               0x000000010a5e4dd7 -[UILayoutContainerView layoutSubviews] + 223
+38  UIKit                               0x000000010a2cdab8 -[UIView(CALayerDelegate) layoutSublayersOfLayer:] + 1237
+39  QuartzCore                          0x0000000109fefbf8 -[CALayer layoutSublayers] + 146
+40  QuartzCore                          0x0000000109fe3440 _ZN2CA5Layer16layout_if_neededEPNS_11TransactionE + 366
+41  QuartzCore                          0x0000000109fe32be _ZN2CA5Layer28layout_and_display_if_neededEPNS_11TransactionE + 24
+42  QuartzCore                          0x0000000109f71318 _ZN2CA7Context18commit_transactionEPNS_11TransactionE + 280
+43  QuartzCore                          0x0000000109f9e3ff _ZN2CA11Transaction6commitEv + 475
+44  UIKit                               0x000000010a2337f0 _afterCACommitHandler + 346
+45  CoreFoundation                      0x0000000109387267 __CFRUNLOOP_IS_CALLING_OUT_TO_AN_OBSERVER_CALLBACK_FUNCTION__ + 23
+46  CoreFoundation                      0x00000001093871d7 __CFRunLoopDoObservers + 391
+47  CoreFoundation                      0x000000010936bf8e __CFRunLoopRun + 1198
+48  CoreFoundation                      0x000000010936b884 CFRunLoopRunSpecific + 420
+49  GraphicsServices                    0x000000010f69ba6f GSEventRunModal + 161
+50  UIKit                               0x000000010a208c68 UIApplicationMain + 159
+51  iBPMMonitor                         0x000000010868d71f main + 111
+52  libdyld.dylib                       0x000000010fc8568d start + 1
+53  ???                                 0x0000000000000001 0x0 + 1
+)
+libc++abi.dylib: terminating with uncaught exception of type NSException

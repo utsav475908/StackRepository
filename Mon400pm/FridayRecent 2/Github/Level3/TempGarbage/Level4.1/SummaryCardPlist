@@ -1,0 +1,33 @@
+(lldb) po summaryPath
+▿ Optional<String>
+- some : "/Users/kuutsav/Library/Developer/CoreSimulator/Devices/FFC4192A-E6E9-487D-8128-91F55F375AC4/data/Containers/Bundle/Application/6E35FFFF-82A3-4D48-A98F-1566D200D109/iBPMMonitor.app/Summary.plist"
+
+
+(lldb) po allSummaryCard
+▿ Optional<NSMutableArray>
+▿ some : 5 elements
+▿ 0 : 4 elements
+- 0 : pxCorrSummary
+- 1 : pyLabel
+- 2 : postCreateNewLine
+- 3 : pyFolderType
+▿ 1 : 4 elements
+- 0 : discCaseNumber
+- 1 : pyShowCases
+- 2 : conditionCode
+- 3 : pyOrigUserID
+▿ 2 : 4 elements
+- 0 : postAddToList
+- 1 : pyUrgencyWorkAdjust
+- 2 : resolvedDateTime
+- 3 : pxCoveredCountOpen
+▿ 3 : 4 elements
+- 0 : bEECategory
+- 1 : b2BReturnStatus
+- 2 : invalidAndMiscRadar
+- 3 : pyContactType
+▿ 4 : 4 elements
+- 0 : pxUrgencyWorkSLA
+- 1 : toCCParty
+- 2 : pxApplication
+- 3 : pyWorkIDPrefix

@@ -1,0 +1,910 @@
+(lldb) po statusDictionary
+▿ Optional<NSDictionary>
+▿ some : 133 elements
+▿ 0 : 2 elements
+- .0 : pxUrgencyWorkSLA
+- .1 : 10
+▿ 1 : 2 elements
+- .0 : ToCCParty
+- .1 : ShipToContact, BillToContact
+▿ 2 : 2 elements
+- .0 : pxApplication
+- .1 : DynaDisp
+▿ 3 : 2 elements
+- .0 : pyWorkIDPrefix
+- .1 : BEE-
+▿ 4 : 2 elements
+- .0 : _id
+- .1 : BEE-286
+▿ 5 : 2 elements
+- .0 : BEECategory
+- .1 : Yellow
+▿ 6 : 2 elements
+- .0 : B2BReturnStatus
+- .1 : Fail
+▿ 7 : 2 elements
+- .0 : InvalidAndMiscRadar
+- .1 : RMA Matches
+▿ 8 : 2 elements
+- .0 : Operator
+- .1 : czwonick
+▿ 9 : 2 elements
+- .0 : pyContactType
+- .1 : BRENT UEMAE
+▿ 10 : 2 elements
+- .0 : PostAddToList
+- .1 : Yes
+▿ 11 : 2 elements
+- .0 : pyUrgencyWorkAdjust
+- .1 : 0
+▿ 12 : 2 elements
+- .0 : ConditionCode
+- .1 : Good
+▿ 13 : 2 elements
+- .0 : DiscCaseNumber
+- .1 : 1440529686391
+▿ 14 : 2 elements
+- .0 : pxCoveredCountOpen
+- .1 : 0
+▿ 15 : 2 elements
+- .0 : pyLabel
+- .1 : BEE
+▿ 16 : 2 elements
+- .0 : pyOrigUserID
+- .1 : System
+▿ 17 : 2 elements
+- .0 : pyShowCases
+- .1 : true
+▿ 18 : 2 elements
+- .0 : ResolvedDateTime
+- .1 : 20150827T032409.671 GMT
+▿ 19 : 2 elements
+- .0 : pxCorrSummary
+▿ .1 : 1 element
+▿ 0 : 6 elements
+▿ 0 : 2 elements
+- .0 : pxSentDateTime
+- .1 : 20150827T032411.290 GMT
+▿ 1 : 2 elements
+- .0 : pxRecipientPartyUri
+- .1 : us.aurciscodiscrepancyteam@flextronics.com
+▿ 2 : 2 elements
+- .0 : pxCorrHandle
+- .1 : DATA-CORR-EMAIL CISCO-GSSC-DRD-WORK BEE-286!20150827T032409.632 GMT
+▿ 3 : 2 elements
+- .0 : pxCorrName
+- .1 : TPLVendorCorro
+▿ 4 : 2 elements
+- .0 : pxCorrType
+- .1 : Email
+▿ 5 : 2 elements
+- .0 : pxObjClass
+- .1 : Embed-CorrSummary
+▿ 20 : 2 elements
+- .0 : PostCreateNewLine
+- .1 : No
+▿ 21 : 2 elements
+- .0 : pxLockHandle
+- .1 : CISCO-GSSC-DRD-WORK BEE-286
+▿ 22 : 2 elements
+- .0 : pyFolderType
+- .1 : pyDefault
+▿ 23 : 2 elements
+- .0 : pzIndexCount
+- .1 : 4
+▿ 24 : 2 elements
+- .0 : pyAttachmentCategories
+- .1 : 0 elements
+▿ 25 : 2 elements
+- .0 : pyShowOpenAssignments
+- .1 : true
+▿ 26 : 2 elements
+- .0 : MovetoWB
+- .1 : WB_BEE_AMERICAS
+▿ 27 : 2 elements
+- .0 : BILL_TO_SITE_ID
+- .1 : 403140052
+▿ 28 : 2 elements
+- .0 : pxUpdateCounter
+- .1 : 6
+▿ 29 : 2 elements
+- .0 : pyLabelOld
+- .1 : BEE
+▿ 30 : 2 elements
+- .0 : pxCreateDateTime
+- .1 : 20150825T190813.158 GMT
+▿ 31 : 2 elements
+- .0 : IsOpen
+- .1 : N
+▿ 32 : 2 elements
+- .0 : pxUpdateOperator
+- .1 : czwonick
+▿ 33 : 2 elements
+- .0 : pyElapsedStatusOpen
+- .1 : 0
+▿ 34 : 2 elements
+- .0 : WorkAlreadyExist
+- .1 : Yes
+▿ 35 : 2 elements
+- .0 : QUANTITY_AUTHORIZED
+- .1 : 1
+▿ 36 : 2 elements
+- .0 : pxSystemUpdateDetailsList
+- .1 : 0 elements { ... }
+▿ 37 : 2 elements
+- .0 : pyCalendar
+- .1 : USDefault
+▿ 38 : 2 elements
+- .0 : FirstActionTaken
+- .1 : 20150827T032357.148 GMT
+▿ 39 : 2 elements
+- .0 : pxCoveredCount
+- .1 : 0
+▿ 40 : 2 elements
+- .0 : pyElapsedStatusNew
+- .1 : 0.0
+▿ 41 : 2 elements
+- .0 : B2BPid
+- .1 : ISR4331/K9
+▿ 42 : 2 elements
+- .0 : CONTRACT_NUMBER
+- .1 : 95012998
+▿ 43 : 2 elements
+- .0 : CustomerCommunication
+- .1 : No
+▿ 44 : 2 elements
+- .0 : pxUpdateOrgUnit
+- .1 : RMA
+▿ 45 : 2 elements
+- .0 : pySLAAction
+- .1 : 20150825T190813.158 GMT
+▿ 46 : 2 elements
+- .0 : BILL_TO_COUNTRY
+- .1 : UNITED STATES
+▿ 47 : 2 elements
+- .0 : pyNextEmailThreadID
+- .1 : 1
+▿ 48 : 2 elements
+- .0 : pyStatusWork
+- .1 : Resolved-Completed
+▿ 49 : 2 elements
+- .0 : B2BRma
+- .1 : 86640917
+▿ 50 : 2 elements
+- .0 : PowerToolEmail
+- .1 : No
+▿ 51 : 2 elements
+- .0 : pyOrigOrg
+- .1 : Cisco
+▿ 52 : 2 elements
+- .0 : pxInsName
+- .1 : BEE-286
+▿ 53 : 2 elements
+- .0 : pyFlowKey
+- .1 : RULE-OBJ-FLOW CISCO-GSSC-DRD-WORK-DP-BEE PROCESSBEE #20141203T155353.203 GMT
+▿ 54 : 2 elements
+- .0 : PostAddNotes
+- .1 : No
+▿ 55 : 2 elements
+- .0 : ECL
+- .1 : 6.50
+▿ 56 : 2 elements
+- .0 : pxCreateOpName
+- .1 : Agent(System-Queue-DRD.CreateBEEAndRADARWO)
+▿ 57 : 2 elements
+- .0 : pyWorkPartiesRule
+- .1 : pyCaseManagementDefault
+▿ 58 : 2 elements
+- .0 : pyResolvedOrg
+- .1 : Cisco
+▿ 59 : 2 elements
+- .0 : pxUpdateSystemID
+- .1 : pega_gssc_prod
+▿ 60 : 2 elements
+- .0 : pyResolvedUserID
+- .1 : czwonick
+▿ 61 : 2 elements
+- .0 : ResolutionCode
+- .1 : Y1-SN Entitled
+▿ 62 : 2 elements
+- .0 : RMAList
+▿ .1 : 1 element
+▿ 0 : 5 elements
+▿ 0 : 2 elements
+- .0 : CUSTOMER_SN
+- .1 : FLM1923W009
+▿ 1 : 2 elements
+- .0 : ITEM_NAME
+- .1 : ISR4331/K9
+▿ 2 : 2 elements
+- .0 : ORDER_NUMBER
+- .1 : 86640917
+▿ 3 : 2 elements
+- .0 : pyRowSelected
+- .1 : true
+▿ 4 : 2 elements
+- .0 : pxObjClass
+- .1 : Cisco-FW-OrderFW-Work
+▿ 63 : 2 elements
+- .0 : pyResolvedUserWorkgroup
+- .1 : ARCHGroup
+▿ 64 : 2 elements
+- .0 : RMACaseID
+- .1 : CISCO-GSSC-O2R-WORK RMA-1648714
+▿ 65 : 2 elements
+- .0 : B2BLine
+- .1 : 835260952
+▿ 66 : 2 elements
+- .0 : pyResolvedTimestamp
+- .1 : 20150827T032409.673 GMT
+▿ 67 : 2 elements
+- .0 : pyResolvedDivision
+- .1 : GSSC
+▿ 68 : 2 elements
+- .0 : pyResolvedOrgUnit
+- .1 : RMA
+▿ 69 : 2 elements
+- .0 : pxResolveSummary
+▿ .1 : 1 element
+▿ 0 : 10 elements
+▿ 0 : 2 elements
+- .0 : pxResolvedOrgUnit
+- .1 : RMA
+▿ 1 : 2 elements
+- .0 : pxResolvedTimestamp
+- .1 : 20150827T032409.673 GMT
+▿ 2 : 2 elements
+- .0 : pxObjClass
+- .1 : Embed-ResolveSummary
+▿ 3 : 2 elements
+- .0 : pxResolvedUserID
+- .1 : czwonick
+▿ 4 : 2 elements
+- .0 : pxResolvedUserWorkgroup
+- .1 : ARCHGroup
+▿ 5 : 2 elements
+- .0 : pxResolvedDivision
+- .1 : GSSC
+▿ 6 : 2 elements
+- .0 : pxResolvedUserDivision
+- .1 : GSSC
+▿ 7 : 2 elements
+- .0 : pxResolvedOrg
+- .1 : Cisco
+▿ 8 : 2 elements
+- .0 : pxResolvedUserName
+- .1 : Carolyn Zwonick
+▿ 9 : 2 elements
+- .0 : pxResolvedStatus
+- .1 : Resolved-Completed
+▿ 70 : 2 elements
+- .0 : CUSTOMER_SN
+- .1 : FLM1923W009
+▿ 71 : 2 elements
+- .0 : pyElapsedStatusPending
+- .1 : 116155.0
+▿ 72 : 2 elements
+- .0 : pyStatusWorkOld
+- .1 : Resolved-Completed
+▿ 73 : 2 elements
+- .0 : LIST_PRICE
+- .1 : 0
+▿ 74 : 2 elements
+- .0 : RECEIVED_SN
+- .1 : FLM1923W020
+▿ 75 : 2 elements
+- .0 : pzIndexes
+▿ .1 : 1 element
+▿ 0 : 2 elements
+- .0 : Index_RADARAndBEEWork
+- .1 : 0
+▿ 76 : 2 elements
+- .0 : pxObjClass
+- .1 : Cisco-GSSC-DRD-Work-DP-BEE
+▿ 77 : 2 elements
+- .0 : pyCaseFilterDescription
+- .1 : Current Assignments and Subcases
+▿ 78 : 2 elements
+- .0 : SHIP_TO_COUNTRY
+- .1 : UNITED STATES
+▿ 79 : 2 elements
+- .0 : ManualEmailTemplate
+- .1 : BEERedCommunication1
+▿ 80 : 2 elements
+- .0 : B2BSn
+- .1 : FLM1923W009
+▿ 81 : 2 elements
+- .0 : pyID
+- .1 : BEE-286
+▿ 82 : 2 elements
+- .0 : pyConfirmationNote
+- .1 : Thank you for your input
+▿ 83 : 2 elements
+- .0 : Waybill
+- .1 : 10019017725700078758007811557467
+▿ 84 : 2 elements
+- .0 : pyShowCompletedAssignments
+- .1 : false
+▿ 85 : 2 elements
+- .0 : pyOrigOrgUnit
+- .1 : RMA
+▿ 86 : 2 elements
+- .0 : Category
+- .1 : Analysis Notes
+▿ 87 : 2 elements
+- .0 : REGION
+- .1 : US & Canada
+▿ 88 : 2 elements
+- .0 : PID
+- .1 : ISR4331/K9
+▿ 89 : 2 elements
+- .0 : pzInsKey
+- .1 : CISCO-GSSC-DRD-WORK BEE-286
+▿ 90 : 2 elements
+- .0 : SHIP_TO_SITE_ID
+- .1 : 719940862
+▿ 91 : 2 elements
+- .0 : pyStatusWorkTimestamp
+- .1 : 20150827T032409.701 GMT
+▿ 92 : 2 elements
+- .0 : pxUpdateDateTime
+- .1 : 20150827T032411.291 GMT
+▿ 93 : 2 elements
+- .0 : NotesList
+- .1 : 0 elements { ... }
+▿ 94 : 2 elements
+- .0 : pxUrgencyWork
+- .1 : 20
+▿ 95 : 2 elements
+- .0 : pxTickets
+▿ .1 : 1 element
+- 0 : Status-Resolved
+▿ 96 : 2 elements
+- .0 : pyHasAttachments
+- .1 : true
+▿ 97 : 2 elements
+- .0 : B2BToken
+- .1 : 0
+▿ 98 : 2 elements
+- .0 : RECEIVED_PID
+- .1 : ISR4331/K9
+▿ 99 : 2 elements
+- .0 : RECEIVED_RMA
+- .1 : 86640917
+▿ 100 : 2 elements
+- .0 : pyOrigDivision
+- .1 : GSSC
+▿ 101 : 2 elements
+- .0 : pyTemporaryObject
+- .1 : false
+▿ 102 : 2 elements
+- .0 : pySLAName
+- .1 : NoCustomerCommunicationSLA
+▿ 103 : 2 elements
+- .0 : pyWorkParty
+▿ .1 : 6 elements
+▿ 0 : 2 elements
+- .0 : BillToContact
+▿ .1 : 16 elements
+▿ 0 : 2 elements
+- .0 : pyPartyNotified
+- .1 : false
+▿ 1 : 2 elements
+- .0 : pyPartyRoleRequired
+- .1 : true
+▿ 2 : 2 elements
+- .0 : pyPartyRoleVisibleOnEntry
+- .1 : true
+▿ 3 : 2 elements
+- .0 : pyEmail1
+- .1 : brent.uemae@hawaiiantel.com
+▿ 4 : 2 elements
+- .0 : pyCorrPreferences
+▿ .1 : 1 element
+- 0 : Email_1
+▿ 5 : 2 elements
+- .0 : pyFullName
+- .1 : Cisco Customer
+▿ 6 : 2 elements
+- .0 : pyFirstName
+- .1 : Cisco
+▿ 7 : 2 elements
+- .0 : pyLabel
+- .1 : Cisco Customer
+▿ 8 : 2 elements
+- .0 : pyLastName
+- .1 : Customer
+▿ 9 : 2 elements
+- .0 : pyWorkPartyUri
+- .1 : brent.uemae@hawaiiantel.com
+▿ 10 : 2 elements
+- .0 : pxPartyRole
+- .1 : BillToContact
+▿ 11 : 2 elements
+- .0 : pxSubscript
+- .1 : BillToContact
+▿ 12 : 2 elements
+- .0 : pxObjClass
+- .1 : Data-Party-Person
+▿ 13 : 2 elements
+- .0 : pyPartyLabel
+- .1 : BillToContact
+▿ 14 : 2 elements
+- .0 : pyResponseMode1
+- .1 : Email
+▿ 15 : 2 elements
+- .0 : pzIndexes
+▿ .1 : 1 element
+▿ 0 : 2 elements
+- .0 : PartyURI
+- .1 : 3
+▿ 1 : 2 elements
+- .0 : Planner
+▿ .1 : 8 elements
+▿ 0 : 2 elements
+- .0 : pyFirstName
+- .1 : drd_bee_mgrs_americas@cisco.com
+▿ 1 : 2 elements
+- .0 : pyFullName
+- .1 : drd_bee_mgrs_americas@cisco.com
+▿ 2 : 2 elements
+- .0 : pyLastName
+- .1 : drd_bee_mgrs_americas@cisco.com
+▿ 3 : 2 elements
+- .0 : pxObjClass
+- .1 : Data-Party
+▿ 4 : 2 elements
+- .0 : pxSubscript
+- .1 : Planner
+▿ 5 : 2 elements
+- .0 : pyWorkPartyUri
+- .1 : drd_bee_mgrs_americas@cisco.com
+▿ 6 : 2 elements
+- .0 : pzIndexes
+▿ .1 : 1 element
+▿ 0 : 2 elements
+- .0 : PartyURI
+- .1 : 2
+▿ 7 : 2 elements
+- .0 : pyEmail1
+- .1 : drd_bee_mgrs_americas@cisco.com
+▿ 2 : 2 elements
+- .0 : AckContact
+▿ .1 : 17 elements
+▿ 0 : 2 elements
+- .0 : pyPartyNotified
+- .1 : false
+▿ 1 : 2 elements
+- .0 : pyPartyRoleRequired
+- .1 : true
+▿ 2 : 2 elements
+- .0 : pyPartyRoleVisibleOnEntry
+- .1 : true
+▿ 3 : 2 elements
+- .0 : pyEmail1
+- .1 : brent.uemae@hawaiiantel.com
+▿ 4 : 2 elements
+- .0 : pyCorrPreferences
+▿ .1 : 1 element
+- 0 : Email_1
+▿ 5 : 2 elements
+- .0 : pyFullName
+- .1 : Brent Uemae
+▿ 6 : 2 elements
+- .0 : pyFirstName
+- .1 : Brent
+▿ 7 : 2 elements
+- .0 : pyLabel
+- .1 : Brent Uemae
+▿ 8 : 2 elements
+- .0 : pyLastName
+- .1 : Uemae
+▿ 9 : 2 elements
+- .0 : pyWorkPartyUri
+- .1 : brent.uemae@hawaiiantel.com
+▿ 10 : 2 elements
+- .0 : pxPartyRole
+- .1 : AckContact
+▿ 11 : 2 elements
+- .0 : pxSubscript
+- .1 : AckContact
+▿ 12 : 2 elements
+- .0 : pxObjClass
+- .1 : Data-Party-Person
+▿ 13 : 2 elements
+- .0 : pyPartyLabel
+- .1 : AckContact
+▿ 14 : 2 elements
+- .0 : pyResponseMode1
+- .1 : Email
+▿ 15 : 2 elements
+- .0 : pyWorkPhone
+- .1 : 18082984432
+▿ 16 : 2 elements
+- .0 : pzIndexes
+▿ .1 : 1 element
+▿ 0 : 2 elements
+- .0 : PartyURI
+- .1 : 1
+▿ 3 : 2 elements
+- .0 : Manager
+▿ .1 : 6 elements
+▿ 0 : 2 elements
+- .0 : pxSubscript
+- .1 : Manager
+▿ 1 : 2 elements
+- .0 : pzIndexes
+▿ .1 : 1 element
+▿ 0 : 2 elements
+- .0 : PartyURI
+- .1 : 1
+▿ 2 : 2 elements
+- .0 : pyFullName
+- .1 : drd_bee_mgrs_americas@cisco.com
+▿ 3 : 2 elements
+- .0 : pyWorkPartyUri
+- .1 : drd_bee_mgrs_americas@cisco.com
+▿ 4 : 2 elements
+- .0 : pyEmail1
+- .1 : drd_bee_mgrs_americas@cisco.com
+▿ 5 : 2 elements
+- .0 : pxObjClass
+- .1 : Data-Party
+▿ 4 : 2 elements
+- .0 : ShipToContact
+▿ .1 : 17 elements
+▿ 0 : 2 elements
+- .0 : pyPartyNotified
+- .1 : false
+▿ 1 : 2 elements
+- .0 : pyPartyRoleRequired
+- .1 : true
+▿ 2 : 2 elements
+- .0 : pyPartyRoleVisibleOnEntry
+- .1 : true
+▿ 3 : 2 elements
+- .0 : pyEmail1
+- .1 : brent.uemae@hawaiiantel.com
+▿ 4 : 2 elements
+- .0 : pyCorrPreferences
+▿ .1 : 1 element
+- 0 : Email_1
+▿ 5 : 2 elements
+- .0 : pyFullName
+- .1 : Brent Uemae
+▿ 6 : 2 elements
+- .0 : pyFirstName
+- .1 : Brent
+▿ 7 : 2 elements
+- .0 : pyLabel
+- .1 : Brent Uemae
+▿ 8 : 2 elements
+- .0 : pyLastName
+- .1 : Uemae
+▿ 9 : 2 elements
+- .0 : pyWorkPartyUri
+- .1 : brent.uemae@hawaiiantel.com
+▿ 10 : 2 elements
+- .0 : pxPartyRole
+- .1 : ShipToContact
+▿ 11 : 2 elements
+- .0 : pxSubscript
+- .1 : ShipToContact
+▿ 12 : 2 elements
+- .0 : pxObjClass
+- .1 : Data-Party-Person
+▿ 13 : 2 elements
+- .0 : pyPartyLabel
+- .1 : ShipToContact
+▿ 14 : 2 elements
+- .0 : pyResponseMode1
+- .1 : Email
+▿ 15 : 2 elements
+- .0 : pyWorkPhone
+- .1 : 18082984432
+▿ 16 : 2 elements
+- .0 : pzIndexes
+▿ .1 : 1 element
+▿ 0 : 2 elements
+- .0 : PartyURI
+- .1 : 2
+▿ 5 : 2 elements
+- .0 : TPLVendor
+▿ .1 : 14 elements
+▿ 0 : 2 elements
+- .0 : pyPartyNotified
+- .1 : true
+▿ 1 : 2 elements
+- .0 : pyMobilePhoneTimes
+- .1 : Anytime
+▿ 2 : 2 elements
+- .0 : pyHomePhoneTimes
+- .1 : Anytime
+▿ 3 : 2 elements
+- .0 : pyEmail1
+- .1 : us.aurciscodiscrepancyteam@flextronics.com
+▿ 4 : 2 elements
+- .0 : pyCorrPreferences
+▿ .1 : 1 element
+- 0 : Email
+▿ 5 : 2 elements
+- .0 : pyOtherPhoneTimes
+- .1 : Anytime
+▿ 6 : 2 elements
+- .0 : pyFirstName
+- .1 : TPL
+▿ 7 : 2 elements
+- .0 : pyLastName
+- .1 : Vendor
+▿ 8 : 2 elements
+- .0 : pyWorkPartyUri
+- .1 : us.aurciscodiscrepancyteam@flextronics.com
+▿ 9 : 2 elements
+- .0 : pxSubscript
+- .1 : TPLVendor
+▿ 10 : 2 elements
+- .0 : pyWorkPhoneTimes
+- .1 : Anytime
+▿ 11 : 2 elements
+- .0 : pxObjClass
+- .1 : Data-Party-Person
+▿ 12 : 2 elements
+- .0 : pzIndexes
+▿ .1 : 1 element
+▿ 0 : 2 elements
+- .0 : PartyURI
+- .1 : 3
+▿ 13 : 2 elements
+- .0 : pyResponseMode1
+- .1 : Email1
+▿ 104 : 2 elements
+- .0 : pxCreateSystemID
+- .1 : pega_gssc_prod
+▿ 105 : 2 elements
+- .0 : PID_DESC
+- .1 : Cisco ISR 4331 (3GE,2NIM,1SM,4G FLASH,4G DRAM,IPB)
+▿ 106 : 2 elements
+- .0 : ORDER_NUMBER
+- .1 : 86640917
+▿ 107 : 2 elements
+- .0 : ToParty
+- .1 : AckContact
+▿ 108 : 2 elements
+- .0 : THEATER
+- .1 : AMERICAS
+▿ 109 : 2 elements
+- .0 : RMA_AGE
+- .1 : 20
+▿ 110 : 2 elements
+- .0 : InstructionOnly
+- .1 : No
+▿ 111 : 2 elements
+- .0 : pxCreateOperator
+- .1 : System
+▿ 112 : 2 elements
+- .0 : pxUrgencyPartyTotal
+- .1 : 0
+▿ 113 : 2 elements
+- .0 : pyNotifyQuickStream
+- .1 : QuestionAboutItem
+▿ 114 : 2 elements
+- .0 : BusinessImpact
+- .1 : serial number provided is under warranty
+▿ 115 : 2 elements
+- .0 : pxCoveredCountUnsatisfied
+- .1 : 0
+▿ 116 : 2 elements
+- .0 : CountryOfOrigin
+- .1 : UNITED STATES
+▿ 117 : 2 elements
+- .0 : pxUrgencyWorkClass
+- .1 : 10
+▿ 118 : 2 elements
+- .0 : MATCH_TYPE
+- .1 : BEECase
+▿ 119 : 2 elements
+- .0 : pxUpdateOpName
+- .1 : Carolyn Zwonick
+▿ 120 : 2 elements
+- .0 : ATTRIBUTE1
+- .1 : 2.1
+▿ 121 : 2 elements
+- .0 : ResendDispInfo
+▿ .1 : 28 elements
+▿ 0 : 2 elements
+- .0 : HARDWARE_FAILURE_FLAG
+- .1 : N
+▿ 1 : 2 elements
+- .0 : COUNTRY
+- .1 : UNITED STATES
+▿ 2 : 2 elements
+- .0 : ORDER_NUMBER
+- .1 : 86640917
+▿ 3 : 2 elements
+- .0 : RETURN_LOCATION
+- .1 : U04
+▿ 4 : 2 elements
+- .0 : PART_SERVICE_PRICED
+- .1 : Y
+▿ 5 : 2 elements
+- .0 : SerializedPartFlag
+- .1 : Y
+▿ 6 : 2 elements
+- .0 : pxObjClass
+- .1 : Cisco-FW-OrderFW-Work
+▿ 7 : 2 elements
+- .0 : BEEEligible
+- .1 : Y
+▿ 8 : 2 elements
+- .0 : DispositionInstructionList
+▿ .1 : 1 element
+▿ 0 : 25 elements
+▿ 0 : 2 elements
+- .0 : CUSTOMER_SN
+- .1 : FLM1923W009
+▿ 1 : 2 elements
+- .0 : RoundTrip
+- .1 : N
+▿ 2 : 2 elements
+- .0 : ALLOWED_STRIKE_COUNT
+- .1 : 2
+▿ 3 : 2 elements
+- .0 : ServiceEarlyReturnFlag
+- .1 : Y
+▿ 4 : 2 elements
+- .0 : TANVersionRepairable
+- .1 : Y
+▿ 5 : 2 elements
+- .0 : PIDAtCurrentVerFlag
+- .1 : N
+▿ 6 : 2 elements
+- .0 : pxObjClass
+- .1 : Cisco-FW-OrderFW-Data-DI
+▿ 7 : 2 elements
+- .0 : TransportationMode
+- .1 : STS
+▿ 8 : 2 elements
+- .0 : SupplDIOverrideExist
+- .1 : N
+▿ 9 : 2 elements
+- .0 : DispositionLocation
+- .1 : U04
+▿ 10 : 2 elements
+- .0 : DerivedPIDList
+▿ .1 : 1 element
+- 0 : ISR4331-AXV/K9
+▿ 11 : 2 elements
+- .0 : SoftClose
+- .1 : Y
+▿ 12 : 2 elements
+- .0 : TFGIHandlingFlag
+- .1 : N
+▿ 13 : 2 elements
+- .0 : SERReturnType
+- .1 : SER
+▿ 14 : 2 elements
+- .0 : FACheckRequired
+- .1 : true
+▿ 15 : 2 elements
+- .0 : NStrikeRuleFlag
+- .1 : N
+▿ 16 : 2 elements
+- .0 : ExceptionRuleExists
+- .1 : N
+▿ 17 : 2 elements
+- .0 : DispositionInstructions
+- .1 : STORE IN U04 - DGI
+▿ 18 : 2 elements
+- .0 : ValidSerialNumber
+- .1 : FLM1923W009
+▿ 19 : 2 elements
+- .0 : SpecialDispositionInst
+- .1 : REMOVE BATTERY OR FOLLOW PROPER LABELING
+▿ 20 : 2 elements
+- .0 : N_STRIKE_COUNT
+- .1 : 0
+▿ 21 : 2 elements
+- .0 : QMSResponse
+- .1 : false
+▿ 22 : 2 elements
+- .0 : NeededLocation
+- .1 : Holding location for not repair enabled
+▿ 23 : 2 elements
+- .0 : DerivedPID
+- .1 : ISR4331-AXV/K9
+▿ 24 : 2 elements
+- .0 : PIDExistsInBatteryList
+- .1 : Y
+▿ 9 : 2 elements
+- .0 : ConditionCode
+- .1 : Good
+▿ 10 : 2 elements
+- .0 : REPAIRABLE_FLAG
+- .1 : Y
+▿ 11 : 2 elements
+- .0 : FA_CASE_FLAG
+- .1 : N
+▿ 12 : 2 elements
+- .0 : RemarketingFlag
+- .1 : N
+▿ 13 : 2 elements
+- .0 : RemarketingOrg
+- .1 : Y
+▿ 14 : 2 elements
+- .0 : DualUseFlag
+- .1 : Y
+▿ 15 : 2 elements
+- .0 : PID
+- .1 : ISR4331/K9
+▿ 16 : 2 elements
+- .0 : RepairableDILocation
+- .1 : U04
+▿ 17 : 2 elements
+- .0 : THEATER
+- .1 : AMERICAS
+▿ 18 : 2 elements
+- .0 : UMPIRE_FLAG
+- .1 : N
+▿ 19 : 2 elements
+- .0 : ECL
+- .1 : 6.50
+▿ 20 : 2 elements
+- .0 : ITEM_LIFE_CYCL
+- .1 : CUR
+▿ 21 : 2 elements
+- .0 : RemarketingPL
+- .1 : Z20
+▿ 22 : 2 elements
+- .0 : ORDER_CREATION_DATE
+- .1 : 20150804T064554.000 GMT
+▿ 23 : 2 elements
+- .0 : DirectShipFlag
+- .1 : Y
+▿ 24 : 2 elements
+- .0 : REGION
+- .1 : US & Canada
+▿ 25 : 2 elements
+- .0 : CTS_INV_REMARKETING
+- .1 : N
+▿ 26 : 2 elements
+- .0 : DEPOT_REMKTG
+- .1 : N
+▿ 27 : 2 elements
+- .0 : LINE_ID
+- .1 : 835260952
+▿ 122 : 2 elements
+- .0 : pyResolvedUserDivision
+- .1 : GSSC
+▿ 123 : 2 elements
+- .0 : SHIP_TO_CONTACT
+- .1 : Brent Uemae
+▿ 124 : 2 elements
+- .0 : pyAgeFromDate
+- .1 : 20150825T190813.158 GMT
+▿ 125 : 2 elements
+- .0 : pyFlowName
+- .1 : ProcessBEE
+▿ 126 : 2 elements
+- .0 : RemoveBEEHold
+- .1 : No
+▿ 127 : 2 elements
+- .0 : SERVICE_REQUEST_NUMBER
+- .1 : 635843931
+▿ 128 : 2 elements
+- .0 : RETURN_LOCATION
+- .1 : U04
+▿ 129 : 2 elements
+- .0 : pyResolvedTime
+- .1 : 116155.0
+▿ 130 : 2 elements
+- .0 : SHIP_TO_CUSTOMER_NAME
+- .1 : FIRST HAWAIIAN BANK
+▿ 131 : 2 elements
+- .0 : pxFlow
+- .1 : 0 elements
+▿ 132 : 2 elements
+- .0 : BILL_TO_CUSTOMER_NAME
+- .1 : HAWAIIAN TELCOM COMMUNICATIONS INC
+
+
+(lldb)
